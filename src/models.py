@@ -52,6 +52,79 @@ class GenerationPlan:
 
 
 @dataclass
+class CVSkillGroup:
+    label: str
+    content: str
+
+
+@dataclass
+class CVExperience:
+    organization: str
+    role: str
+    location: str
+    dates: str
+    bullets: list[str]
+
+
+@dataclass
+class CVProject:
+    name: str
+    year: str
+    bullets: list[str]
+    url: str = ""
+    url_label: str = ""
+
+
+@dataclass
+class CVEducation:
+    institution: str
+    dates: str
+    degree: str
+    details: str = ""
+
+
+@dataclass
+class CVCertification:
+    provider: str
+    name: str
+    year: str
+
+
+@dataclass
+class CVDocument:
+    title: str
+    profile_paragraph: str
+    skill_groups: list[CVSkillGroup]
+    experiences: list[CVExperience]
+    projects: list[CVProject]
+    education: list[CVEducation]
+    certifications: list[CVCertification]
+    languages: str
+
+
+@dataclass
+class CoverLetterRecipient:
+    name: str = ""
+    organization: str = ""
+    address: str = ""
+
+
+@dataclass
+class CoverLetterDocument:
+    date: str = ""
+    subject: str = ""
+    greeting: str = "Madame, Monsieur,"
+    paragraphs: list[str] = field(default_factory=list)
+    closing: str = "Je vous prie d'agréer, Madame, Monsieur, l'expression de ma considération distinguée."
+
+
+@dataclass
+class GeneratedApplicationContent:
+    cv: CVDocument
+    cover_letter: CoverLetterDocument
+
+
+@dataclass
 class ApplicationMetadata:
     application_id: str
     job_title: str

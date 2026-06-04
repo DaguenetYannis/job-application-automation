@@ -75,6 +75,40 @@ Expected:
 - selected skill blocks include Power BI, SQL and KPI/reporting when available
 - no API call is made
 
+## Full Generation Smoke Test
+
+1. Create a local `.env` file:
+
+```env
+OPENAI_API_KEY=your_real_key_here
+OPENAI_MODEL=gpt-5.4-mini
+OPENAI_MAX_OUTPUT_TOKENS=8000
+PDF_COMPILER=xelatex
+```
+
+2. Make sure a LaTeX distribution is installed:
+
+- MiKTeX or TeX Live on Windows
+- TeX Live on Linux/macOS
+
+3. Run:
+
+```powershell
+python main.py new
+```
+
+4. Paste a job title, optional company, and job description.
+
+Expected outputs:
+
+```text
+applications/<application_id>/generated_content.json
+applications/<application_id>/outputs/cv/cv.tex
+applications/<application_id>/outputs/cover_letter/cover_letter.tex
+applications/<application_id>/outputs/pdf/cv.pdf
+applications/<application_id>/outputs/pdf/cover_letter.pdf
+```
+
 ## Where To Add Materials
 
 - Previous CV examples: `data/examples/cvs/`

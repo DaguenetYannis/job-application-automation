@@ -2,3 +2,4 @@ pytest
 python-dotenv
 pyyaml
 jinja2
+openai
