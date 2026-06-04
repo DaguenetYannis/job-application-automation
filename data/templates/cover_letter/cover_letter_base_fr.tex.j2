@@ -1,0 +1,75 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=((( layout.margin | default("1.9cm") )))]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\renewcommand{\baselinestretch}{((( layout.line_stretch | default("1.05") )))}
+\pagestyle{empty}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{flushleft}
+\textbf{((( candidate.name )))}\\
+((( candidate.location )))\\
+((( candidate.phone )))\\
+((( candidate.email )))\\
+((* if candidate.linkedin *))\href{((( candidate.linkedin )))}{LinkedIn}\\((* endif *))
+((* if candidate.portfolio *))\href{((( candidate.portfolio )))}{Portfolio}\\((* endif *))
+\end{flushleft}
+
+\vspace{0.25cm}
+
+((* if letter.date *))
+\begin{flushright}
+((( letter.date )))
+\end{flushright}
+((* endif *))
+
+((* if recipient.name or recipient.organization or recipient.address *))
+\vspace{0.15cm}
+
+\begin{flushleft}
+((* if recipient.name *))((( recipient.name )))\\((* endif *))
+((* if recipient.organization *))((( recipient.organization )))\\((* endif *))
+((* if recipient.address *))((( recipient.address )))\\((* endif *))
+\end{flushleft}
+((* endif *))
+
+((* if letter.subject *))
+\vspace{0.20cm}
+
+\textbf{Objet : ((( letter.subject )))}
+
+\vspace{0.25cm}
+((* else *))
+\vspace{0.25cm}
+((* endif *))
+
+((( letter.greeting | default("Madame, Monsieur,") )))
+
+\vspace{0.18cm}
+
+((* for paragraph in letter.paragraphs *))
+((( paragraph )))
+
+((* if not loop.last *))
+\vspace{0.18cm}
+((* endif *))
+((* endfor *))
+
+\vspace{0.22cm}
+
+((( letter.closing | default("Je vous prie d'agréer, Madame, Monsieur, l'expression de ma considération distinguée.") )))
+
+\vspace{0.28cm}
+
+((( candidate.name )))
+
+\end{document}

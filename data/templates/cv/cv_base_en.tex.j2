@@ -1,0 +1,118 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=((( layout.margin | default("1.75cm") )))]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\renewcommand{\baselinestretch}{((( layout.line_stretch | default("1.04") )))}
+\pagestyle{empty}
+
+\newcommand{\sectiontitle}[1]{\vspace{0.26cm}\textbf{\large #1}\vspace{0.10cm}\hrule\vspace{0.13cm}}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+{\Large \textbf{((( candidate.name )))} }\\
+\textbf{((( document.title )))}\\
+((( candidate.location ))) \,|\, ((( candidate.phone ))) \,|\, ((( candidate.email ))) \\
+((* if candidate.linkedin *))\href{((( candidate.linkedin )))}{LinkedIn}((* endif *))
+((* if candidate.github *)) \,|\, \href{((( candidate.github )))}{GitHub}((* endif *))
+((* if candidate.portfolio *)) \,|\, \href{((( candidate.portfolio )))}{Portfolio}((* endif *))
+\end{center}
+
+% ---------- PROFILE ----------
+((* if profile_paragraph *))
+\sectiontitle{Profile}
+
+((( profile_paragraph )))
+((* endif *))
+
+% ---------- SKILLS ----------
+((* if skill_groups *))
+\sectiontitle{Skills}
+
+((* for skill_group in skill_groups *))
+\textbf{((( skill_group.label ))) :} ((( skill_group.content )))
+
+((* if not loop.last *))
+\vspace{0.08cm}
+((* endif *))
+((* endfor *))
+((* endif *))
+
+% ---------- PROFESSIONAL EXPERIENCE ----------
+((* if experiences *))
+\sectiontitle{Professional Experience}
+
+((* for experience in experiences *))
+\textbf{((( experience.organization ))) - ((( experience.role )))} \hfill ((( experience.location ))) \hfill ((( experience.dates )))
+
+((* for bullet in experience.bullets *))
+((( bullet )))\\
+((* endfor *))
+
+((* if not loop.last *))
+\vspace{0.25cm}
+((* endif *))
+((* endfor *))
+((* endif *))
+
+% ---------- SELECTED WORK ----------
+((* if projects *))
+\sectiontitle{Selected Work}
+
+((* for project in projects *))
+\textbf{((( project.name )))} \hfill ((( project.year )))
+
+((* for bullet in project.bullets *))
+((( bullet )))\\
+((* endfor *))
+
+((* if project.url *))
+Project shown in portfolio: \href{((( project.url )))}{((( project.url_label | default(project.url) )))}
+((* endif *))
+
+((* if not loop.last *))
+\vspace{0.22cm}
+((* endif *))
+((* endfor *))
+((* endif *))
+
+% ---------- EDUCATION ----------
+((* if education *))
+\sectiontitle{Education}
+
+((* for item in education *))
+\textbf{((( item.institution )))} \hfill ((( item.dates )))\\
+((( item.degree )))\\
+((* if item.details *))((( item.details )))((* endif *))
+
+((* if not loop.last *))
+\vspace{0.17cm}
+((* endif *))
+((* endfor *))
+((* endif *))
+
+% ---------- CERTIFICATIONS ----------
+((* if certifications *))
+\sectiontitle{Certifications}
+
+((* for certification in certifications *))
+\textbf{((( certification.provider )))} - ((( certification.name ))) \hfill ((( certification.year )))\\
+((* endfor *))
+((* endif *))
+
+% ---------- LANGUAGES ----------
+((* if languages *))
+\sectiontitle{Languages}
+
+((( languages )))
+((* endif *))
+
+\end{document}
