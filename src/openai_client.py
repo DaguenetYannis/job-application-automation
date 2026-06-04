@@ -6,8 +6,9 @@ from dotenv import load_dotenv
 
 
 class OpenAIClient:
-    def __init__(self) -> None:
-        load_dotenv()
+    def __init__(self, load_environment: bool = True) -> None:
+        if load_environment:
+            load_dotenv()
         self.api_key = os.getenv("OPENAI_API_KEY")
 
     def is_configured(self) -> bool:

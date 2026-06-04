@@ -49,6 +49,32 @@ Enter the job title, optionally enter the company, then paste the job descriptio
 
 The system creates an application folder and appends a row to `tracker.csv`.
 
+## Manual Smoke Test
+
+Run:
+
+```powershell
+python main.py new
+```
+
+Use a BI reporting job description containing:
+Power BI, SQL, dashboards, KPI, reporting, Power Query.
+
+Then inspect:
+
+```text
+applications/<application_id>/parsed_job.json
+applications/<application_id>/selected_context.json
+applications/<application_id>/generation_plan.json
+```
+
+Expected:
+
+- `parsed_job.json` detects `fr` or `en`
+- `selected_context.json` includes `02_bi_reporting_analytics`
+- selected skill blocks include Power BI, SQL and KPI/reporting when available
+- no API call is made
+
 ## Where To Add Materials
 
 - Previous CV examples: `data/examples/cvs/`

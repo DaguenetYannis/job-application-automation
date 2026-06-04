@@ -37,7 +37,7 @@ class ApplicationWorkspace:
         self._write_text_exclusive(folder / "raw_job_description.txt", job_input.job_description)
         self._write_json(folder / "parsed_job.json", asdict(parsed_job))
         self._write_json(folder / "selected_context.json", selected_context)
-        self._write_json(folder / "generation_plan.json", self._generation_plan())
+        self._write_json(folder / "generation_plan.json", self._generation_plan(parsed_job, selected_context))
         self._create_output_dirs(folder)
         self._write_text_exclusive(folder / "logs" / "run_log.txt", f"Created {created_at}\n")
 
@@ -77,16 +77,28 @@ class ApplicationWorkspace:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8")
 
-    def _generation_plan(self) -> dict[str, Any]:
+    def _generation_plan(self, parsed_job: ParsedJob, selected_context: dict[str, Any]) -> dict[str, Any]:
         return {
-            "status": "placeholder",
-            "steps": [
-                "parse_job_description",
-                "select_context",
-                "generate_cv_latex",
-                "generate_cover_letter_latex",
-                "review_and_revise",
+            "status": "context_selected",
+            "language": parsed_job.language,
+            "selected_role_categories": selected_context.get("selected_role_categories", []),
+            "cv_template": selected_context.get("selected_templates", {}).get("cv", ""),
+            "cover_letter_template": selected_context.get("selected_templates", {}).get("cover_letter", ""),
+            "selected_cv_examples": selected_context.get("selected_cv_examples", []),
+            "selected_cover_letter_examples": selected_context.get("selected_cover_letter_examples", []),
+            "selected_skill_blocks": [
+                block.get("skill_id", "")
+                for block in selected_context.get("selected_skill_blocks", [])
+                if block.get("skill_id")
+            ],
+            "selected_experiences": selected_context.get("selected_experiences", []),
+            "selected_projects": selected_context.get("selected_projects", []),
+            "next_steps": [
+                "build_prompts",
+                "generate_structured_cv_content",
+                "generate_structured_cover_letter_content",
+                "render_latex",
                 "compile_pdfs",
             ],
-            "notes": "Generation is not implemented in Milestone 1.",
+            "notes": "No API call has been made.",
         }

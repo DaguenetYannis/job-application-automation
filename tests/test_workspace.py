@@ -51,7 +51,11 @@ def test_workspace_creates_application_folder_and_files() -> None:
         assert (folder / "logs" / "run_log.txt").exists()
 
         input_data = json.loads((folder / "input.json").read_text(encoding="utf-8"))
+        generation_plan = json.loads((folder / "generation_plan.json").read_text(encoding="utf-8"))
         assert input_data["job_title"] == "Data Analyst"
+        assert generation_plan["status"] == "context_selected"
+        assert "cv_template" in generation_plan
+        assert generation_plan["selected_role_categories"]
     finally:
         shutil.rmtree(root, ignore_errors=True)
 

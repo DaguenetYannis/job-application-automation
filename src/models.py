@@ -31,6 +31,24 @@ class ParsedJob:
     keywords: list[str] = field(default_factory=list)
     recommended_cv_examples: list[str] = field(default_factory=list)
     recommended_cover_letter_examples: list[str] = field(default_factory=list)
+    detected_role_categories: list[str] = field(default_factory=list)
+    detected_keywords: list[str] = field(default_factory=list)
+    detected_required_skills: list[str] = field(default_factory=list)
+    detected_main_missions: list[str] = field(default_factory=list)
+
+
+@dataclass
+class GenerationPlan:
+    language: str
+    selected_role_categories: list[str]
+    cv_template: str
+    cover_letter_template: str
+    selected_cv_examples: list[str]
+    selected_cover_letter_examples: list[str]
+    selected_skill_blocks: list[str]
+    selected_experiences: list[str]
+    selected_projects: list[str]
+    notes: str = ""
 
 
 @dataclass
