@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest_tmp/
+.test_artifacts/
+pytest-cache-files-*/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+applications/*/outputs/**/*.pdf
+applications/*/outputs/**/*.aux
+applications/*/outputs/**/*.log
+applications/*/outputs/**/*.out
+applications/*/outputs/**/*.synctex.gz
