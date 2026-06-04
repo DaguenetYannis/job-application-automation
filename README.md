@@ -49,6 +49,19 @@ Enter the job title, optionally enter the company, then paste the job descriptio
 
 The system creates an application folder and appends a row to `tracker.csv`.
 
+## Terminal Progress Logs
+
+When running `python main.py new`, the app prints progress messages with percentage markers. These show the current phase of the pipeline: parsing, context selection, workspace creation, prompt building, OpenAI generation, quality checks, LaTeX rendering and PDF compilation.
+
+Example:
+
+```text
+[ 10%] 14:03:01 | Parsing job description
+[ 20%] 14:03:01 | Selecting local context
+[ 60%] 14:03:01 | Calling OpenAI for structured CV and cover letter content
+[100%] 14:03:12 | Application packet generated
+```
+
 ## Manual Smoke Test
 
 Run:

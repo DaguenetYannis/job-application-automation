@@ -1,0 +1,128 @@
+{
+  "cv": {
+    "title": "Global Research - Junior Economist - Analyst or Associate",
+    "profile_paragraph": "Junior economist with training in econometrics, international and development economics, and applied data analysis. At Université Paris Dauphine, I studied advanced econometrics, public policy evaluation and quantitative methods, and used R and Stata in applied work on regressions, panel data and difference in differences. My recent experience combines reproducible data pipelines, indicator building, reporting and documentation across public policy and climate-related projects.",
+    "skill_groups": [
+      {
+        "label": "Econometrics and statistics",
+        "content": "Advanced econometrics, regressions, panel data, difference in differences, statistical analysis, R, Stata, interpretation of results."
+      },
+      {
+        "label": "Economic analysis",
+        "content": "International economics, development economics, public economics, policy evaluation, applied economic reasoning, green industrial transition."
+      },
+      {
+        "label": "Data management and spreadsheets",
+        "content": "Excel, CSV and Excel file processing, SQL, DuckDB, data cleaning, schema normalization, quality checks, variable dictionaries."
+      },
+      {
+        "label": "Reporting and synthesis",
+        "content": "Policy notes, methodology documentation, slides, dashboards, structured reporting, synthesis for technical and non-technical audiences."
+      },
+      {
+        "label": "Languages",
+        "content": "French native, English C2, German B1, Korean B1, Italian A2."
+      }
+    ],
+    "experiences": [
+      {
+        "organization": "DataForGood / Reclaim Finance",
+        "role": "Data Analyst",
+        "location": "Paris, France",
+        "dates": "2025-present",
+        "bullets": [
+          "Built a Python and DuckDB pipeline covering 43 years of local fiscal files.",
+          "Processed about 1.56 million commune-year observations.",
+          "Converted Excel and CSV files into analytical tables and Parquet formats.",
+          "Constructed indicators of fiscal potential, fiscal effort and vulnerability.",
+          "Set up quality tests, variable documentation and collective review of processing steps.",
+          "Explored and prototyped Power BI outputs to visualize territorial indicators."
+        ]
+      },
+      {
+        "organization": "Greenly",
+        "role": "Stagiaire Data Analyst & Climat",
+        "location": "Paris, France",
+        "dates": "2025-2025",
+        "bullets": [
+          "Used SQL in BigQuery and PostgreSQL to extract, filter, reconcile and control ESG data.",
+          "Developed Python and Google Apps Script scripts to clean, transform and standardize Excel and CSV files.",
+          "Automated recurring tasks including label matching, multi-material data, freight distances via Google Maps API and anomaly checks.",
+          "Produced indicators, dashboards, slides and reporting materials for clients and internal teams.",
+          "Wrote internal methodology documentation on carbon reporting, SBTi, FLAG and transport analyses."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Transition industrielle verte - Mémoire de Master",
+        "year": "2024",
+        "bullets": [
+          "Analyzed large international datasets to study the emergence of green industrial sectors.",
+          "Used input-output data, Eora26, Exiobase, carbon emissions and indicators of productive capabilities.",
+          "Worked in R and produced indicators and visualizations.",
+          "Topic linked to green transition and carbon accounting, including MACF and CBAM issues."
+        ],
+        "url": "",
+        "url_label": ""
+      },
+      {
+        "name": "Portfolio analytique",
+        "year": "2026",
+        "bullets": [
+          "Published applied analytical projects combining data preparation, visualization, indicators and structured reporting.",
+          "Includes green industrial transition, CBAM, international trade and machine learning.",
+          "Uses Python and R."
+        ],
+        "url": "",
+        "url_label": ""
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université Paris Dauphine",
+        "dates": "2023-2024",
+        "degree": "Master 2 Économétrie, Économie Internationale & Développement",
+        "details": "Advanced econometrics, public policy evaluation, environmental economics, industrial economics, labour economics, quantitative methods and statistical analysis."
+      },
+      {
+        "institution": "Maastricht University",
+        "dates": "2020-2022",
+        "degree": "Master Affaires Européennes",
+        "details": "European public policy, political economy, economic governance, quantitative methods and institutional analysis."
+      },
+      {
+        "institution": "Institut Catholique de Paris",
+        "dates": "2017-2020",
+        "degree": "Licence Économie, Politique & Sciences Sociales",
+        "details": "Economics, political science, social sciences and international relations."
+      }
+    ],
+    "certifications": [
+      {
+        "provider": "HarvardX",
+        "name": "Data Analysis with R, statistics and visualization",
+        "year": "2023"
+      },
+      {
+        "provider": "Coursera",
+        "name": "Python for Analysis & Automation",
+        "year": "2025"
+      }
+    ],
+    "languages": "French native; English C2; German B1; Korean B1; Italian A2"
+  },
+  "cover_letter": {
+    "date": "",
+    "subject": "Application for Global Research - Junior Economist - Analyst or Associate",
+    "greeting": "Dear Hiring Manager,",
+    "paragraphs": [
+      "I am applying for the Global Research - Junior Economist - Analyst or Associate role at JPMorgan Chase. My background combines econometrics, international and development economics, and applied data work, with training from Université Paris Dauphine and Maastricht University. I am particularly interested in contributing to economic research through quantitative analysis, database work and written outputs.",
+      "At Dauphine, I completed a Master 2 in Econométrie, Économie Internationale & Développement with advanced econometrics, public policy evaluation, environmental economics, industrial economics, quantitative methods and statistical analysis. My applied work used R and Stata for regressions, panel data and difference in differences. In parallel, my current and recent projects involved Python, DuckDB, SQL, Excel, CSV and Parquet, including a pipeline covering 43 years of local fiscal files and about 1.56 million commune-year observations.",
+      "My experience also matches the reporting and synthesis aspects of the role. At Greenly, I produced indicators, dashboards, slides and reporting materials for clients and internal teams, and wrote methodology documentation on carbon reporting, SBTi, FLAG and transport analyses. In the DataForGood / Reclaim Finance project, I documented variable definitions, schema normalization and quality checks while building territorial indicators on fiscal vulnerability to climate risks. I also worked on a master thesis about green industrial transition using input-output data, Eora26 and Exiobase, which strengthened my ability to synthesize evidence from large datasets and present findings clearly.",
+      "I would welcome the opportunity to support JPMorgan Chase Economic Research Team with data gathering, statistical analysis, database updates and written research outputs. Thank you for your consideration, and I would be pleased to discuss how my background can contribute to your global research work.",
+      "Sincerely,"
+    ],
+    "closing": "Sincerely,"
+  }
+}

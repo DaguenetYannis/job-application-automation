@@ -1,0 +1,845 @@
+You generate structured job application content for a LaTeX rendering system.
+Return only valid JSON. Do not include Markdown, commentary or code fences.
+Do not invent facts. Use only the provided context and the job description.
+Do not use the em dash character.
+Write in the detected language: en.
+Keep the CV concise and compatible with existing LaTeX templates.
+Return plain text only inside JSON fields. Do not add LaTeX commands. The application will escape LaTeX-sensitive characters after generation.
+Avoid unsupported claims. Keep Power BI, DAX and advanced BI claims proportional to the evidence.
+
+Evidence preservation:
+- Preserve concrete evidence from selected_context.
+- Do not summarize away tools, datasets, methods or outputs.
+- Use specific evidence when relevant.
+- If a selected experience contains concrete tools, datasets or outputs, include them in bullets.
+- Prefer factual bullets over generic statements.
+
+No generic filler:
+- Do not use these weak phrases unless immediately tied to concrete evidence:
+  dynamic environment; strong quantitative approach; complex datasets; clear and usable outputs;
+  closely aligned with my profile; make a significant impact; passionate about; excited to apply;
+  proven track record.
+
+CV density targets:
+- 4 to 6 skill groups.
+- 2 to 3 professional experiences when available.
+- 4 to 6 bullets per main experience.
+- 2 to 3 selected projects when relevant.
+- Include all relevant education entries.
+- Include all languages from candidate profile.
+- Include tools, data types, methods and outputs in experience bullets.
+- Keep the profile paragraph specific and not generic.
+
+Cover letter targets:
+- 4 paragraphs.
+- Paragraph 1: role-specific motivation and positioning.
+- Paragraph 2: evidence linked to main technical requirements.
+- Paragraph 3: evidence linked to writing, research, reporting, stakeholder or domain requirements.
+- Paragraph 4: concise closing.
+- Mention the company or organization naturally.
+- Include at least 2 concrete links between job requirements and candidate evidence.
+
+Role-specific strategy:
+- Follow document_strategy when deciding positioning, title, priorities and must_include_evidence.
+
+Requirement mapping:
+- Use requirement_mapping explicitly when deciding what to include in the CV and cover letter.
+
+Return exactly this JSON structure:
+{
+  "cv": {
+    "title": "",
+    "profile_paragraph": "",
+    "skill_groups": [
+      {"label": "", "content": ""}
+    ],
+    "experiences": [
+      {
+        "organization": "",
+        "role": "",
+        "location": "",
+        "dates": "",
+        "bullets": []
+      }
+    ],
+    "projects": [
+      {
+        "name": "",
+        "year": "",
+        "bullets": [],
+        "url": "",
+        "url_label": ""
+      }
+    ],
+    "education": [
+      {
+        "institution": "",
+        "dates": "",
+        "degree": "",
+        "details": ""
+      }
+    ],
+    "certifications": [
+      {
+        "provider": "",
+        "name": "",
+        "year": ""
+      }
+    ],
+    "languages": ""
+  },
+  "cover_letter": {
+    "date": "",
+    "subject": "",
+    "greeting": "",
+    "paragraphs": [],
+    "closing": ""
+  }
+}
+
+Job title: Global Research - Junior Economist - Analyst or Associate
+Company: JP Morgan Chase
+
+Raw job description:
+Join the leading global financial services firm, JPMorgan Chase & Co., with operations worldwide and assets of $2.5 trillion. As part of the Economic Research Team, you'll support Senior Economists, providing data gathering, macroeconomic modelling, statistical analysis, and contributing to presentations and reports for our diverse range of clients. This role offers the opportunity to work in a dynamic environment and make a significant impact on the bank's economic research and analysis.
+
+As a Global Research - Junior Economist - Analyst or Associate within the Economic Research Team, you will be responsible for providing support with data and information gathering and processing, macroeconomic modelling and statistical analysis, monitoring data releases and updating databases, synthesizing findings, and contributing to presentations and reports in response to internal and external client requests. You will work closely with Senior Economists, applying your excellent knowledge of economic principles and statistics/econometrics, and your strong organizational and time management skills. This role offers the opportunity to work autonomously and as a team-player in an international environment, and to contribute to the firm's understanding of global economies.
+
+Job responsibilities
+
+Undertake, under the supervision of Senior Economists, qualitative and quantitative analysis on economies.
+Undertake economic (spreadsheet) modelling and statistical analysis applying sound economic judgment.
+Build, update, and streamline country and regional databases with rigorous attention to detail.
+Contribute to written publications and presentations on the region.
+Monitor data releases and market-relevant developments globally.
+Produce literature/report reviews.
+Provide support for any other internal and external data or information request or project on the countries covered.
+ 
+Required qualifications, capabilities, and skills
+
+Background in economics at the post-graduate level (Master’s degree).
+Some experience in economics.
+Background in development/international economics at a similar level with a strong analytical/statistical component is an alternative.
+Excellent knowledge of economic principles and statistics/econometrics.
+Excellent ability to work with spreadsheets.
+Ability to sieve through, synthesize, and present complex information and ideas.
+Strong organizational and time management skills.
+Ability to work autonomously during periods of travel by the supervisor.
+Ability to work as a team-player in an international environment.
+ 
+Preferred qualifications, capabilities, and skills
+
+Research experience on EM economies.
+Experience in the official creditor sector or developing country government.
+
+Parsed job:
+{
+  "language": "en",
+  "job_family": [
+    "04_economist_policy_analyst"
+  ],
+  "required_skills": [
+    "Econometrics",
+    "Excel"
+  ],
+  "preferred_skills": [],
+  "main_missions": [
+    "As a Global Research - Junior Economist - Analyst or Associate within the Economic Research Team, you will be responsible for providing support with data and information gathering and processing, macroeconomic modelling and statistical analysis, monitoring data releases and updating databases, synthesizing findings, and contributing to presentations and reports in response to internal and external client requests",
+    "You will work closely with Senior Economists, applying your excellent knowledge of economic principles and statistics/econometrics, and your strong organizational and time management skills",
+    "This role offers the opportunity to work autonomously and as a team-player in an international environment, and to contribute to the firm's understanding of global economies",
+    "Job responsibilities",
+    "Build, update, and streamline country and regional databases with rigorous attention to detail",
+    "Contribute to written publications and presentations on the region",
+    "Monitor data releases and market-relevant developments globally",
+    "Background in development/international economics at a similar level with a strong analytical/statistical component is an alternative"
+  ],
+  "keywords": [
+    "development",
+    "econometrics",
+    "economist",
+    "ets",
+    "research"
+  ],
+  "recommended_cv_examples": [],
+  "recommended_cover_letter_examples": [],
+  "detected_role_categories": [
+    "04_economist_policy_analyst"
+  ],
+  "detected_keywords": [
+    "development",
+    "econometrics",
+    "economist",
+    "ets",
+    "research"
+  ],
+  "detected_required_skills": [
+    "Econometrics",
+    "Excel"
+  ],
+  "detected_main_missions": [
+    "As a Global Research - Junior Economist - Analyst or Associate within the Economic Research Team, you will be responsible for providing support with data and information gathering and processing, macroeconomic modelling and statistical analysis, monitoring data releases and updating databases, synthesizing findings, and contributing to presentations and reports in response to internal and external client requests",
+    "You will work closely with Senior Economists, applying your excellent knowledge of economic principles and statistics/econometrics, and your strong organizational and time management skills",
+    "This role offers the opportunity to work autonomously and as a team-player in an international environment, and to contribute to the firm's understanding of global economies",
+    "Job responsibilities",
+    "Build, update, and streamline country and regional databases with rigorous attention to detail",
+    "Contribute to written publications and presentations on the region",
+    "Monitor data releases and market-relevant developments globally",
+    "Background in development/international economics at a similar level with a strong analytical/statistical component is an alternative"
+  ]
+}
+
+Selected context:
+{
+  "language": "en",
+  "selected_role_categories": [
+    "04_economist_policy_analyst"
+  ],
+  "selected_role_profiles": [
+    {
+      "category_id": "04_economist_policy_analyst",
+      "label": "Economist and Policy Analyst",
+      "cv_angle": "Economist with strong quantitative and data skills, focused on evidence-based policy analysis.",
+      "cover_letter_angle": "Emphasize the link between economic reasoning, quantitative methods and public decision-making.",
+      "tone": [
+        "analytical",
+        "institutional",
+        "structured",
+        "policy-oriented"
+      ]
+    }
+  ],
+  "selected_cv_examples": [
+    "data/examples/cvs/04_economist_policy_analyst/CV_Économiste & analyse des politiques publiques.pdf"
+  ],
+  "selected_cover_letter_examples": [
+    "data/examples/cover_letters/04_economist_policy_analyst/Lettre_DAGUENET_Yannis.pdf"
+  ],
+  "selected_skill_blocks": [
+    {
+      "skill_id": "econometrics",
+      "label": "Econometrics",
+      "short": "Applied econometrics to analyze data, test relationships and support public policy evaluation.",
+      "medium": "Regressions, panel data, difference-in-differences, Stata, R, quantitative analysis and interpretation.",
+      "keywords": [
+        "econometrics",
+        "regression",
+        "panel data",
+        "difference-in-differences",
+        "Stata",
+        "R"
+      ],
+      "evidence": [
+        "Dauphine: applied econometrics, Stata/R, regressions, panels and evaluation.",
+        "Structural gravity project and applied economics."
+      ]
+    },
+    {
+      "skill_id": "public_policy_analysis",
+      "label": "Public policy analysis",
+      "short": "Data-driven public policy analysis based on indicators, evidence and decision-oriented synthesis.",
+      "medium": "Turning data and quantitative methods into diagnosis, indicators, notes, limitations and careful recommendations.",
+      "keywords": [
+        "public policy",
+        "evaluation",
+        "indicators",
+        "public decision-making",
+        "policy note"
+      ],
+      "evidence": [
+        "Dauphine: public economics, evaluation and quantitative analysis.",
+        "DataForGood / Reclaim Finance: territorial indicators to support public decision-making."
+      ]
+    },
+    {
+      "skill_id": "climate_policy",
+      "label": "Climate policy",
+      "short": "Climate transition analysis connecting data, public policy, carbon accounting and economic issues.",
+      "medium": "Applied climate policy: carbon reporting, territorial adaptation, industrial transition, CBAM/MACF and economic instruments.",
+      "keywords": [
+        "climate",
+        "transition",
+        "adaptation",
+        "CBAM",
+        "MACF",
+        "decarbonization"
+      ],
+      "evidence": [
+        "Greenly: carbon data and GHG methodologies.",
+        "Master thesis on green industrial transition and MACF / CBAM note.",
+        "DataForGood / Reclaim Finance: fiscal vulnerability to climate risks."
+      ]
+    },
+    {
+      "skill_id": "writing_synthesis",
+      "label": "Writing and synthesis",
+      "short": "Writing syntheses, notes and documentation that connect data, method and decision-making.",
+      "medium": "Policy notes, methodology documentation, operational guides, structured arguments and audience adaptation.",
+      "keywords": [
+        "policy note",
+        "synthesis",
+        "documentation",
+        "methodology",
+        "policy writing"
+      ],
+      "evidence": [
+        "Policy notes, methodology documentation, Notion guides and Greenly materials.",
+        "AFD biodiversity note and MACF / CBAM note."
+      ]
+    },
+    {
+      "skill_id": "data_structuring_cleaning",
+      "label": "Data structuring and cleaning",
+      "short": "Structuring and cleaning multi-source data to produce reliable and documented datasets.",
+      "medium": "Central skill covering cleaning, normalization, schema harmonization, variable dictionaries and quality checks.",
+      "keywords": [
+        "cleaning",
+        "quality",
+        "normalization",
+        "schema",
+        "dictionary",
+        "multi-source"
+      ],
+      "evidence": [
+        "Greenly: purchases, freight, recycling, sold products and emission factors.",
+        "DataForGood / Reclaim Finance: variable dictionary, schema normalization and quality checks."
+      ]
+    },
+    {
+      "skill_id": "r",
+      "label": "R for statistics",
+      "short": "R for statistical analysis, applied econometrics, visualization and reproducible reporting.",
+      "medium": "R in academic work with tidyverse, ggplot2, dplyr, plm, caret and R Markdown.",
+      "keywords": [
+        "R",
+        "tidyverse",
+        "ggplot2",
+        "dplyr",
+        "plm",
+        "caret",
+        "R Markdown"
+      ],
+      "evidence": [
+        "Dauphine: econometrics, statistics, visualization and applied projects in R.",
+        "Difference-in-differences, panel data and applied economics in an academic setting."
+      ]
+    },
+    {
+      "skill_id": "python_data",
+      "label": "Python data",
+      "short": "Python to structure, clean, transform and document large datasets.",
+      "medium": "Python for Excel/CSV ingestion, transformations, quality checks, documentation and Parquet conversion.",
+      "keywords": [
+        "Python",
+        "DuckDB",
+        "pandas",
+        "Parquet",
+        "CSV",
+        "quality checks"
+      ],
+      "evidence": [
+        "DataForGood / Reclaim Finance: Python pipeline, DuckDB, Excel/CSV ingestion, Parquet conversion and data dictionary.",
+        "Quality checks on a fiscal dataset covering French municipalities."
+      ]
+    },
+    {
+      "skill_id": "competition_policy",
+      "label": "Competition and regulation",
+      "short": "Economic analysis transferable to competition, regulation and market structure topics.",
+      "medium": "Frame as interest and transferable economic analysis: markets, incentives, regulation, data and synthesis.",
+      "keywords": [
+        "competition",
+        "regulation",
+        "markets",
+        "industrial economics",
+        "economic analysis"
+      ],
+      "evidence": [
+        "Training in industrial economics and economic analysis.",
+        "Competition-related interest and applications, with transferable quantitative analysis skills."
+      ]
+    }
+  ],
+  "selected_templates": {
+    "cv": "cv/cv_base_en.tex.j2",
+    "cover_letter": "cover_letter/cover_letter_base_en.tex.j2"
+  },
+  "selected_experiences": [
+    "DataForGood / Reclaim Finance",
+    "Greenly"
+  ],
+  "selected_experience_details": [
+    {
+      "organization": "DataForGood / Reclaim Finance",
+      "role": "Data Analyst",
+      "location": "Paris, France",
+      "dates": "2025-present",
+      "type": "volunteer",
+      "keywords": [
+        "Python",
+        "DuckDB",
+        "SQL",
+        "Fiscal data",
+        "Climate risk",
+        "Public policy",
+        "Territorial analysis",
+        "Power BI",
+        "Data quality",
+        "Indicators"
+      ],
+      "description": {
+        "fr": "Projet collaboratif d'analyse territoriale sur la vulnérabilité fiscale des communes françaises face aux risques climatiques. Structuration de pipelines de données reproductibles en Python et DuckDB, construction d'indicateurs et documentation des traitements dans un environnement pluridisciplinaire.\n",
+        "en": "Collaborative territorial analysis project on the fiscal vulnerability of French municipalities to climate risks. Built reproducible data pipelines with Python and DuckDB, developed indicators, and documented analytical workflows in a cross-functional environment.\n"
+      },
+      "achievements": [
+        "Pipeline Python et DuckDB couvrant 43 années de fichiers fiscaux locaux.",
+        "Traitement d'environ 1,56M observations commune-année.",
+        "Conversion de fichiers Excel/CSV en tables analytiques et formats Parquet.",
+        "Construction d'indicateurs de potentiel fiscal, effort fiscal et vulnérabilité.",
+        "Mise en place de tests qualité, documentation des variables et revue collective des traitements.",
+        "Exploration et prototypage de restitutions sous Power BI pour visualiser des indicateurs territoriaux."
+      ],
+      "evidence": {
+        "tools": [
+          "Python",
+          "R",
+          "SQL",
+          "DuckDB",
+          "Power BI",
+          "Excel"
+        ],
+        "datasets": [
+          "fiscal data",
+          "Parquet"
+        ],
+        "methods": [
+          "pipeline",
+          "documentation"
+        ],
+        "outputs": [
+          "documentation",
+          "indicators",
+          "tables"
+        ],
+        "domain": [
+          "climate",
+          "public policy",
+          "fiscal vulnerability"
+        ]
+      }
+    },
+    {
+      "organization": "Greenly",
+      "role": "Stagiaire Data Analyst & Climat",
+      "location": "Paris, France",
+      "dates": "2025-2025",
+      "type": "internship",
+      "keywords": [
+        "Data analysis",
+        "ESG data",
+        "Carbon accounting",
+        "SQL",
+        "Python",
+        "Excel",
+        "Google Sheets",
+        "Google Apps Script",
+        "Power BI",
+        "Reporting",
+        "Workflow automation"
+      ],
+      "description": {
+        "fr": "Analyse, structuration et fiabilisation de données carbone multi-clients issues d'achats, de fret, de produits vendus, de facteurs d'émission et de données d'activité. Développement de workflows ETL légers, de contrôles qualité, de scripts d'automatisation et de supports de reporting pour des interlocuteurs métiers et clients non techniques.\n",
+        "en": "Analyzed, structured, and validated multi-client carbon datasets covering purchases, freight, sold products, emission factors, and activity data. Developed lightweight ETL workflows, quality checks, automation scripts, and reporting materials for business users and non-technical clients.\n"
+      },
+      "achievements": [
+        "Requêtes SQL sous BigQuery et PostgreSQL pour extraire, filtrer, rapprocher et contrôler des données ESG.",
+        "Développement de scripts Python et Google Apps Script pour nettoyer, transformer et standardiser des fichiers Excel/CSV.",
+        "Automatisation de traitements récurrents : rapprochement de libellés, données multi-matériaux, distances de fret via API Google Maps, contrôles d'anomalies.",
+        "Production d'indicateurs, de tableaux de bord, de slides et de supports de restitution pour clients et équipes internes.",
+        "Rédaction de documentation méthodologique interne sur le reporting carbone, SBTi, FLAG et les analyses de transport."
+      ],
+      "evidence": {
+        "tools": [
+          "Python",
+          "R",
+          "SQL",
+          "BigQuery",
+          "PostgreSQL",
+          "Power BI",
+          "Excel",
+          "Google Sheets",
+          "Google Apps Script"
+        ],
+        "datasets": [
+          "purchases",
+          "freight",
+          "sold products",
+          "emission factors",
+          "ESG data",
+          "carbon data"
+        ],
+        "methods": [
+          "quality checks",
+          "ETL",
+          "documentation"
+        ],
+        "outputs": [
+          "reporting",
+          "slides",
+          "documentation"
+        ],
+        "domain": [
+          "carbon",
+          "ESG",
+          "SBTi",
+          "FLAG"
+        ]
+      }
+    }
+  ],
+  "selected_projects": [
+    "Transition industrielle verte - Mémoire de Master",
+    "Portfolio analytique"
+  ],
+  "selected_project_details": [
+    {
+      "name": "Transition industrielle verte - Mémoire de Master",
+      "year": "2024",
+      "institution": "Université Paris Dauphine",
+      "keywords": [
+        "Input-output analysis",
+        "MRIO",
+        "Eora26",
+        "Exiobase",
+        "Economic complexity",
+        "Carbon emissions",
+        "Green transition",
+        "Data visualization"
+      ],
+      "description": {
+        "fr": "Analyse de bases internationales volumineuses pour étudier l'émergence des secteurs industriels verts, à partir de données input-output, d'émissions carbone et d'indicateurs de capacités productives.\n",
+        "en": "Analyzed large international datasets to study the emergence of green industrial sectors using input-output data, carbon emissions, and indicators of productive capabilities.\n"
+      },
+      "evidence": {
+        "tools": [
+          "R"
+        ],
+        "datasets": [
+          "input-output data",
+          "Eora26",
+          "Exiobase"
+        ],
+        "methods": [
+          "visualization"
+        ],
+        "outputs": [
+          "indicators"
+        ],
+        "domain": [
+          "carbon",
+          "green transition"
+        ]
+      }
+    },
+    {
+      "name": "Portfolio analytique",
+      "year": "2026",
+      "institution": "",
+      "keywords": [
+        "Data analysis",
+        "Visualization",
+        "Reporting",
+        "Python",
+        "R",
+        "Public policy",
+        "Climate economics"
+      ],
+      "description": {
+        "fr": "Mise en ligne de projets d'analyse appliquée combinant préparation de données, visualisation, indicateurs et restitution structurée : transition industrielle verte, CBAM, commerce international et machine learning.\n",
+        "en": "Published applied analytical projects combining data preparation, visualization, indicators, and structured reporting, including green industrial transition, CBAM, international trade, and machine learning.\n"
+      },
+      "evidence": {
+        "tools": [
+          "Python",
+          "R"
+        ],
+        "datasets": [],
+        "methods": [
+          "visualization"
+        ],
+        "outputs": [
+          "reporting",
+          "indicators"
+        ],
+        "domain": [
+          "climate",
+          "public policy",
+          "CBAM"
+        ]
+      }
+    }
+  ],
+  "candidate_education": [
+    {
+      "institution": "Université Paris Dauphine",
+      "location": "Paris, France",
+      "degree": "Master 2 Économétrie, Économie Internationale & Développement",
+      "dates": "2023-2024",
+      "coursework": [
+        "Économétrie avancée",
+        "Évaluation des politiques publiques",
+        "Économie de l'environnement",
+        "Économie industrielle",
+        "Économie du travail",
+        "Méthodes quantitatives",
+        "Analyse statistique"
+      ]
+    },
+    {
+      "institution": "Maastricht University",
+      "location": "Maastricht, Netherlands",
+      "degree": "Master Affaires Européennes",
+      "dates": "2020-2022",
+      "coursework": [
+        "Politiques publiques européennes",
+        "Économie politique",
+        "Gouvernance économique",
+        "Méthodes quantitatives",
+        "Analyse institutionnelle"
+      ]
+    },
+    {
+      "institution": "Institut Catholique de Paris",
+      "location": "Paris, France",
+      "degree": "Licence Économie, Politique & Sciences Sociales",
+      "dates": "2017-2020",
+      "coursework": [
+        "Économie",
+        "Science politique",
+        "Sciences sociales",
+        "Relations internationales"
+      ]
+    }
+  ],
+  "candidate_languages": [
+    {
+      "language": "French",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "C2"
+    },
+    {
+      "language": "German",
+      "level": "B1"
+    },
+    {
+      "language": "Korean",
+      "level": "B1"
+    },
+    {
+      "language": "Italian",
+      "level": "A2"
+    }
+  ],
+  "candidate_certifications": [
+    {
+      "provider": "HarvardX",
+      "name": "Data Analysis with R, statistics and visualization",
+      "year": 2023
+    },
+    {
+      "provider": "Coursera",
+      "name": "Python for Analysis & Automation",
+      "year": 2025
+    }
+  ],
+  "notes": "Rule-based context selection, no API call."
+}
+
+Document strategy:
+{
+  "primary_positioning": "junior economist with quantitative, econometric and data analysis skills",
+  "secondary_positioning": "",
+  "recommended_cv_title": "Global Research - Junior Economist - Analyst or Associate",
+  "cv_section_priorities": [
+    "profile",
+    "skills",
+    "professional_experience",
+    "education",
+    "languages",
+    "certifications"
+  ],
+  "cover_letter_argument": "Position the application to JP Morgan Chase as junior economist with quantitative, econometric and data analysis skills, using concrete evidence from selected context.",
+  "must_include_evidence": [
+    "Dauphine",
+    "econometrics",
+    "international/development economics",
+    "statistical analysis",
+    "writing/synthesis",
+    "Dauphine: applied econometrics, Stata/R, regressions, panels and evaluation.",
+    "Structural gravity project and applied economics.",
+    "regression",
+    "panel data",
+    "difference-in-differences",
+    "Stata",
+    "R",
+    "Dauphine: public economics, evaluation and quantitative analysis.",
+    "DataForGood / Reclaim Finance: territorial indicators to support public decision-making.",
+    "public policy",
+    "evaluation",
+    "indicators",
+    "public decision-making",
+    "policy note",
+    "Greenly: carbon data and GHG methodologies.",
+    "Master thesis on green industrial transition and MACF / CBAM note.",
+    "DataForGood / Reclaim Finance: fiscal vulnerability to climate risks.",
+    "climate",
+    "transition",
+    "adaptation",
+    "CBAM",
+    "MACF",
+    "decarbonization",
+    "Policy notes, methodology documentation, Notion guides and Greenly materials.",
+    "AFD biodiversity note and MACF / CBAM note.",
+    "synthesis",
+    "documentation",
+    "methodology",
+    "policy writing",
+    "Greenly: purchases, freight, recycling, sold products and emission factors.",
+    "DataForGood / Reclaim Finance: variable dictionary, schema normalization and quality checks.",
+    "cleaning",
+    "quality",
+    "normalization",
+    "schema"
+  ],
+  "must_avoid": [
+    "unsupported seniority",
+    "unsupported expert claims",
+    "generic motivation",
+    "manual LaTeX commands",
+    "em dash characters"
+  ],
+  "role_specific_guidance": [
+    "Connect quantitative methods, economic analysis, policy writing and evidence synthesis."
+  ],
+  "quality_targets": {
+    "min_experience_bullets": 4,
+    "max_experience_bullets": 6,
+    "min_skill_groups": 4,
+    "max_skill_groups": 6,
+    "include_all_languages": true,
+    "include_all_relevant_education": true
+  },
+  "source_summary": {
+    "job_title": "Global Research - Junior Economist - Analyst or Associate",
+    "company": "JP Morgan Chase",
+    "parsed_job": {
+      "language": "en",
+      "job_family": [
+        "04_economist_policy_analyst"
+      ],
+      "required_skills": [
+        "Econometrics",
+        "Excel"
+      ],
+      "preferred_skills": [],
+      "main_missions": [
+        "As a Global Research - Junior Economist - Analyst or Associate within the Economic Research Team, you will be responsible for providing support with data and information gathering and processing, macroeconomic modelling and statistical analysis, monitoring data releases and updating databases, synthesizing findings, and contributing to presentations and reports in response to internal and external client requests",
+        "You will work closely with Senior Economists, applying your excellent knowledge of economic principles and statistics/econometrics, and your strong organizational and time management skills",
+        "This role offers the opportunity to work autonomously and as a team-player in an international environment, and to contribute to the firm's understanding of global economies",
+        "Job responsibilities",
+        "Build, update, and streamline country and regional databases with rigorous attention to detail",
+        "Contribute to written publications and presentations on the region",
+        "Monitor data releases and market-relevant developments globally",
+        "Background in development/international economics at a similar level with a strong analytical/statistical component is an alternative"
+      ],
+      "keywords": [
+        "development",
+        "econometrics",
+        "economist",
+        "ets",
+        "research"
+      ],
+      "recommended_cv_examples": [],
+      "recommended_cover_letter_examples": [],
+      "detected_role_categories": [
+        "04_economist_policy_analyst"
+      ],
+      "detected_keywords": [
+        "development",
+        "econometrics",
+        "economist",
+        "ets",
+        "research"
+      ],
+      "detected_required_skills": [
+        "Econometrics",
+        "Excel"
+      ],
+      "detected_main_missions": [
+        "As a Global Research - Junior Economist - Analyst or Associate within the Economic Research Team, you will be responsible for providing support with data and information gathering and processing, macroeconomic modelling and statistical analysis, monitoring data releases and updating databases, synthesizing findings, and contributing to presentations and reports in response to internal and external client requests",
+        "You will work closely with Senior Economists, applying your excellent knowledge of economic principles and statistics/econometrics, and your strong organizational and time management skills",
+        "This role offers the opportunity to work autonomously and as a team-player in an international environment, and to contribute to the firm's understanding of global economies",
+        "Job responsibilities",
+        "Build, update, and streamline country and regional databases with rigorous attention to detail",
+        "Contribute to written publications and presentations on the region",
+        "Monitor data releases and market-relevant developments globally",
+        "Background in development/international economics at a similar level with a strong analytical/statistical component is an alternative"
+      ]
+    }
+  }
+}
+
+Requirement mapping:
+[
+  {
+    "job_requirement": "econometrics/statistics",
+    "candidate_evidence": [
+      "Dauphine econometrics and statistical analysis training",
+      "R/Stata/econometrics skill block",
+      "supervised machine learning pipeline with regression and cross-validation"
+    ],
+    "recommended_use": [
+      "cv_skills",
+      "cv_education",
+      "cover_letter"
+    ]
+  },
+  {
+    "job_requirement": "macroeconomic/economic analysis",
+    "candidate_evidence": [
+      "Dauphine international and development economics training",
+      "transition thesis on green industrial sectors"
+    ],
+    "recommended_use": [
+      "cv_education",
+      "cv_projects",
+      "cover_letter"
+    ]
+  },
+  {
+    "job_requirement": "presentations/reports",
+    "candidate_evidence": [
+      "Greenly client deliverables and reporting slides",
+      "policy notes and writing synthesis"
+    ],
+    "recommended_use": [
+      "cv_experience",
+      "cover_letter"
+    ]
+  },
+  {
+    "job_requirement": "international environment",
+    "candidate_evidence": [
+      "Maastricht University European affairs training",
+      "English C2",
+      "international organizations profile"
+    ],
+    "recommended_use": [
+      "cv_education",
+      "cv_languages",
+      "cover_letter"
+    ]
+  }
+]

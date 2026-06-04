@@ -8,6 +8,7 @@ from src.generator import ApplicationGenerator
 from src.models import JobInput
 from src.openai_client import OpenAIClient
 from src.pipeline import ApplicationPipeline
+from src.progress import ProgressReporter
 
 
 def isolated_dir() -> Path:
@@ -75,6 +76,7 @@ def test_pipeline_generation_writes_generated_outputs_and_pdf_status() -> None:
             applications_dir=root / "applications",
             tracker_path=tracker_path,
             generator=generator,
+            progress=ProgressReporter(enabled=False),
         )
         metadata = pipeline.run(
             JobInput(

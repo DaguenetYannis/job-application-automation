@@ -1,0 +1,467 @@
+{
+  "language": "en",
+  "selected_role_categories": [
+    "04_economist_policy_analyst"
+  ],
+  "selected_role_profiles": [
+    {
+      "category_id": "04_economist_policy_analyst",
+      "label": "Economist and Policy Analyst",
+      "cv_angle": "Economist with strong quantitative and data skills, focused on evidence-based policy analysis.",
+      "cover_letter_angle": "Emphasize the link between economic reasoning, quantitative methods and public decision-making.",
+      "tone": [
+        "analytical",
+        "institutional",
+        "structured",
+        "policy-oriented"
+      ]
+    }
+  ],
+  "selected_cv_examples": [
+    "data/examples/cvs/04_economist_policy_analyst/CV_Économiste & analyse des politiques publiques.pdf"
+  ],
+  "selected_cover_letter_examples": [
+    "data/examples/cover_letters/04_economist_policy_analyst/Lettre_DAGUENET_Yannis.pdf"
+  ],
+  "selected_skill_blocks": [
+    {
+      "skill_id": "econometrics",
+      "label": "Econometrics",
+      "short": "Applied econometrics to analyze data, test relationships and support public policy evaluation.",
+      "medium": "Regressions, panel data, difference-in-differences, Stata, R, quantitative analysis and interpretation.",
+      "keywords": [
+        "econometrics",
+        "regression",
+        "panel data",
+        "difference-in-differences",
+        "Stata",
+        "R"
+      ],
+      "evidence": [
+        "Dauphine: applied econometrics, Stata/R, regressions, panels and evaluation.",
+        "Structural gravity project and applied economics."
+      ]
+    },
+    {
+      "skill_id": "public_policy_analysis",
+      "label": "Public policy analysis",
+      "short": "Data-driven public policy analysis based on indicators, evidence and decision-oriented synthesis.",
+      "medium": "Turning data and quantitative methods into diagnosis, indicators, notes, limitations and careful recommendations.",
+      "keywords": [
+        "public policy",
+        "evaluation",
+        "indicators",
+        "public decision-making",
+        "policy note"
+      ],
+      "evidence": [
+        "Dauphine: public economics, evaluation and quantitative analysis.",
+        "DataForGood / Reclaim Finance: territorial indicators to support public decision-making."
+      ]
+    },
+    {
+      "skill_id": "climate_policy",
+      "label": "Climate policy",
+      "short": "Climate transition analysis connecting data, public policy, carbon accounting and economic issues.",
+      "medium": "Applied climate policy: carbon reporting, territorial adaptation, industrial transition, CBAM/MACF and economic instruments.",
+      "keywords": [
+        "climate",
+        "transition",
+        "adaptation",
+        "CBAM",
+        "MACF",
+        "decarbonization"
+      ],
+      "evidence": [
+        "Greenly: carbon data and GHG methodologies.",
+        "Master thesis on green industrial transition and MACF / CBAM note.",
+        "DataForGood / Reclaim Finance: fiscal vulnerability to climate risks."
+      ]
+    },
+    {
+      "skill_id": "writing_synthesis",
+      "label": "Writing and synthesis",
+      "short": "Writing syntheses, notes and documentation that connect data, method and decision-making.",
+      "medium": "Policy notes, methodology documentation, operational guides, structured arguments and audience adaptation.",
+      "keywords": [
+        "policy note",
+        "synthesis",
+        "documentation",
+        "methodology",
+        "policy writing"
+      ],
+      "evidence": [
+        "Policy notes, methodology documentation, Notion guides and Greenly materials.",
+        "AFD biodiversity note and MACF / CBAM note."
+      ]
+    },
+    {
+      "skill_id": "data_structuring_cleaning",
+      "label": "Data structuring and cleaning",
+      "short": "Structuring and cleaning multi-source data to produce reliable and documented datasets.",
+      "medium": "Central skill covering cleaning, normalization, schema harmonization, variable dictionaries and quality checks.",
+      "keywords": [
+        "cleaning",
+        "quality",
+        "normalization",
+        "schema",
+        "dictionary",
+        "multi-source"
+      ],
+      "evidence": [
+        "Greenly: purchases, freight, recycling, sold products and emission factors.",
+        "DataForGood / Reclaim Finance: variable dictionary, schema normalization and quality checks."
+      ]
+    },
+    {
+      "skill_id": "r",
+      "label": "R for statistics",
+      "short": "R for statistical analysis, applied econometrics, visualization and reproducible reporting.",
+      "medium": "R in academic work with tidyverse, ggplot2, dplyr, plm, caret and R Markdown.",
+      "keywords": [
+        "R",
+        "tidyverse",
+        "ggplot2",
+        "dplyr",
+        "plm",
+        "caret",
+        "R Markdown"
+      ],
+      "evidence": [
+        "Dauphine: econometrics, statistics, visualization and applied projects in R.",
+        "Difference-in-differences, panel data and applied economics in an academic setting."
+      ]
+    },
+    {
+      "skill_id": "python_data",
+      "label": "Python data",
+      "short": "Python to structure, clean, transform and document large datasets.",
+      "medium": "Python for Excel/CSV ingestion, transformations, quality checks, documentation and Parquet conversion.",
+      "keywords": [
+        "Python",
+        "DuckDB",
+        "pandas",
+        "Parquet",
+        "CSV",
+        "quality checks"
+      ],
+      "evidence": [
+        "DataForGood / Reclaim Finance: Python pipeline, DuckDB, Excel/CSV ingestion, Parquet conversion and data dictionary.",
+        "Quality checks on a fiscal dataset covering French municipalities."
+      ]
+    },
+    {
+      "skill_id": "competition_policy",
+      "label": "Competition and regulation",
+      "short": "Economic analysis transferable to competition, regulation and market structure topics.",
+      "medium": "Frame as interest and transferable economic analysis: markets, incentives, regulation, data and synthesis.",
+      "keywords": [
+        "competition",
+        "regulation",
+        "markets",
+        "industrial economics",
+        "economic analysis"
+      ],
+      "evidence": [
+        "Training in industrial economics and economic analysis.",
+        "Competition-related interest and applications, with transferable quantitative analysis skills."
+      ]
+    }
+  ],
+  "selected_templates": {
+    "cv": "cv/cv_base_en.tex.j2",
+    "cover_letter": "cover_letter/cover_letter_base_en.tex.j2"
+  },
+  "selected_experiences": [
+    "DataForGood / Reclaim Finance",
+    "Greenly"
+  ],
+  "selected_experience_details": [
+    {
+      "organization": "DataForGood / Reclaim Finance",
+      "role": "Data Analyst",
+      "location": "Paris, France",
+      "dates": "2025-present",
+      "type": "volunteer",
+      "keywords": [
+        "Python",
+        "DuckDB",
+        "SQL",
+        "Fiscal data",
+        "Climate risk",
+        "Public policy",
+        "Territorial analysis",
+        "Power BI",
+        "Data quality",
+        "Indicators"
+      ],
+      "description": {
+        "fr": "Projet collaboratif d'analyse territoriale sur la vulnérabilité fiscale des communes françaises face aux risques climatiques. Structuration de pipelines de données reproductibles en Python et DuckDB, construction d'indicateurs et documentation des traitements dans un environnement pluridisciplinaire.\n",
+        "en": "Collaborative territorial analysis project on the fiscal vulnerability of French municipalities to climate risks. Built reproducible data pipelines with Python and DuckDB, developed indicators, and documented analytical workflows in a cross-functional environment.\n"
+      },
+      "achievements": [
+        "Pipeline Python et DuckDB couvrant 43 années de fichiers fiscaux locaux.",
+        "Traitement d'environ 1,56M observations commune-année.",
+        "Conversion de fichiers Excel/CSV en tables analytiques et formats Parquet.",
+        "Construction d'indicateurs de potentiel fiscal, effort fiscal et vulnérabilité.",
+        "Mise en place de tests qualité, documentation des variables et revue collective des traitements.",
+        "Exploration et prototypage de restitutions sous Power BI pour visualiser des indicateurs territoriaux."
+      ],
+      "evidence": {
+        "tools": [
+          "Python",
+          "R",
+          "SQL",
+          "DuckDB",
+          "Power BI",
+          "Excel"
+        ],
+        "datasets": [
+          "fiscal data",
+          "Parquet"
+        ],
+        "methods": [
+          "pipeline",
+          "documentation"
+        ],
+        "outputs": [
+          "documentation",
+          "indicators",
+          "tables"
+        ],
+        "domain": [
+          "climate",
+          "public policy",
+          "fiscal vulnerability"
+        ]
+      }
+    },
+    {
+      "organization": "Greenly",
+      "role": "Stagiaire Data Analyst & Climat",
+      "location": "Paris, France",
+      "dates": "2025-2025",
+      "type": "internship",
+      "keywords": [
+        "Data analysis",
+        "ESG data",
+        "Carbon accounting",
+        "SQL",
+        "Python",
+        "Excel",
+        "Google Sheets",
+        "Google Apps Script",
+        "Power BI",
+        "Reporting",
+        "Workflow automation"
+      ],
+      "description": {
+        "fr": "Analyse, structuration et fiabilisation de données carbone multi-clients issues d'achats, de fret, de produits vendus, de facteurs d'émission et de données d'activité. Développement de workflows ETL légers, de contrôles qualité, de scripts d'automatisation et de supports de reporting pour des interlocuteurs métiers et clients non techniques.\n",
+        "en": "Analyzed, structured, and validated multi-client carbon datasets covering purchases, freight, sold products, emission factors, and activity data. Developed lightweight ETL workflows, quality checks, automation scripts, and reporting materials for business users and non-technical clients.\n"
+      },
+      "achievements": [
+        "Requêtes SQL sous BigQuery et PostgreSQL pour extraire, filtrer, rapprocher et contrôler des données ESG.",
+        "Développement de scripts Python et Google Apps Script pour nettoyer, transformer et standardiser des fichiers Excel/CSV.",
+        "Automatisation de traitements récurrents : rapprochement de libellés, données multi-matériaux, distances de fret via API Google Maps, contrôles d'anomalies.",
+        "Production d'indicateurs, de tableaux de bord, de slides et de supports de restitution pour clients et équipes internes.",
+        "Rédaction de documentation méthodologique interne sur le reporting carbone, SBTi, FLAG et les analyses de transport."
+      ],
+      "evidence": {
+        "tools": [
+          "Python",
+          "R",
+          "SQL",
+          "BigQuery",
+          "PostgreSQL",
+          "Power BI",
+          "Excel",
+          "Google Sheets",
+          "Google Apps Script"
+        ],
+        "datasets": [
+          "purchases",
+          "freight",
+          "sold products",
+          "emission factors",
+          "ESG data",
+          "carbon data"
+        ],
+        "methods": [
+          "quality checks",
+          "ETL",
+          "documentation"
+        ],
+        "outputs": [
+          "reporting",
+          "slides",
+          "documentation"
+        ],
+        "domain": [
+          "carbon",
+          "ESG",
+          "SBTi",
+          "FLAG"
+        ]
+      }
+    }
+  ],
+  "selected_projects": [
+    "Transition industrielle verte - Mémoire de Master",
+    "Portfolio analytique"
+  ],
+  "selected_project_details": [
+    {
+      "name": "Transition industrielle verte - Mémoire de Master",
+      "year": "2024",
+      "institution": "Université Paris Dauphine",
+      "keywords": [
+        "Input-output analysis",
+        "MRIO",
+        "Eora26",
+        "Exiobase",
+        "Economic complexity",
+        "Carbon emissions",
+        "Green transition",
+        "Data visualization"
+      ],
+      "description": {
+        "fr": "Analyse de bases internationales volumineuses pour étudier l'émergence des secteurs industriels verts, à partir de données input-output, d'émissions carbone et d'indicateurs de capacités productives.\n",
+        "en": "Analyzed large international datasets to study the emergence of green industrial sectors using input-output data, carbon emissions, and indicators of productive capabilities.\n"
+      },
+      "evidence": {
+        "tools": [
+          "R"
+        ],
+        "datasets": [
+          "input-output data",
+          "Eora26",
+          "Exiobase"
+        ],
+        "methods": [
+          "visualization"
+        ],
+        "outputs": [
+          "indicators"
+        ],
+        "domain": [
+          "carbon",
+          "green transition"
+        ]
+      }
+    },
+    {
+      "name": "Portfolio analytique",
+      "year": "2026",
+      "institution": "",
+      "keywords": [
+        "Data analysis",
+        "Visualization",
+        "Reporting",
+        "Python",
+        "R",
+        "Public policy",
+        "Climate economics"
+      ],
+      "description": {
+        "fr": "Mise en ligne de projets d'analyse appliquée combinant préparation de données, visualisation, indicateurs et restitution structurée : transition industrielle verte, CBAM, commerce international et machine learning.\n",
+        "en": "Published applied analytical projects combining data preparation, visualization, indicators, and structured reporting, including green industrial transition, CBAM, international trade, and machine learning.\n"
+      },
+      "evidence": {
+        "tools": [
+          "Python",
+          "R"
+        ],
+        "datasets": [],
+        "methods": [
+          "visualization"
+        ],
+        "outputs": [
+          "reporting",
+          "indicators"
+        ],
+        "domain": [
+          "climate",
+          "public policy",
+          "CBAM"
+        ]
+      }
+    }
+  ],
+  "candidate_education": [
+    {
+      "institution": "Université Paris Dauphine",
+      "location": "Paris, France",
+      "degree": "Master 2 Économétrie, Économie Internationale & Développement",
+      "dates": "2023-2024",
+      "coursework": [
+        "Économétrie avancée",
+        "Évaluation des politiques publiques",
+        "Économie de l'environnement",
+        "Économie industrielle",
+        "Économie du travail",
+        "Méthodes quantitatives",
+        "Analyse statistique"
+      ]
+    },
+    {
+      "institution": "Maastricht University",
+      "location": "Maastricht, Netherlands",
+      "degree": "Master Affaires Européennes",
+      "dates": "2020-2022",
+      "coursework": [
+        "Politiques publiques européennes",
+        "Économie politique",
+        "Gouvernance économique",
+        "Méthodes quantitatives",
+        "Analyse institutionnelle"
+      ]
+    },
+    {
+      "institution": "Institut Catholique de Paris",
+      "location": "Paris, France",
+      "degree": "Licence Économie, Politique & Sciences Sociales",
+      "dates": "2017-2020",
+      "coursework": [
+        "Économie",
+        "Science politique",
+        "Sciences sociales",
+        "Relations internationales"
+      ]
+    }
+  ],
+  "candidate_languages": [
+    {
+      "language": "French",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "C2"
+    },
+    {
+      "language": "German",
+      "level": "B1"
+    },
+    {
+      "language": "Korean",
+      "level": "B1"
+    },
+    {
+      "language": "Italian",
+      "level": "A2"
+    }
+  ],
+  "candidate_certifications": [
+    {
+      "provider": "HarvardX",
+      "name": "Data Analysis with R, statistics and visualization",
+      "year": 2023
+    },
+    {
+      "provider": "Coursera",
+      "name": "Python for Analysis & Automation",
+      "year": 2025
+    }
+  ],
+  "notes": "Rule-based context selection, no API call."
+}

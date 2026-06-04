@@ -1,0 +1,103 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(cover_letter.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-04-28>
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+) (C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babe
+l-english.tex)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.
+ldf))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty)))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y)))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.
+sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty)))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty)))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.st
+y
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xe
+tex.def)
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cf
+g))
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xe
+tex.def)
+No file cover_letter.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(C:\Users\Nerros\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg)
+[1]
+(C:\Users\Nerros\Documents\Job Searching\yannis\Automation\job_application_syst
+em\applications\2026-06-04_jp-morgan-chase_global-research-junior-economist-ana
+lyst-or-associate_2\outputs\pdf\cover_letter.aux)
+
+Package rerunfilecheck Warning: File `cover_letter.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+Output written on C:\Users\Nerros\Documents\Job Searching\yannis\Automation\job
+_application_system\applications\2026-06-04_jp-morgan-chase_global-research-jun
+ior-economist-analyst-or-associate_2\outputs\pdf\cover_letter.pdf (1 page).
+Transcript written on "C:\Users\Nerros\Documents\Job Searching\yannis\Automatio
+n\job_application_system\applications\2026-06-04_jp-morgan-chase_global-researc
+h-junior-economist-analyst-or-associate_2\outputs\pdf\cover_letter.log".
+
+miktex-dvipdfmx: major issue: So far, you have not checked for MiKTeX updates.
+xelatex: major issue: So far, you have not checked for MiKTeX updates.

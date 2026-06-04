@@ -1,0 +1,51 @@
+[
+  {
+    "job_requirement": "econometrics/statistics",
+    "candidate_evidence": [
+      "Dauphine econometrics and statistical analysis training",
+      "R/Stata/econometrics skill block",
+      "supervised machine learning pipeline with regression and cross-validation"
+    ],
+    "recommended_use": [
+      "cv_skills",
+      "cv_education",
+      "cover_letter"
+    ]
+  },
+  {
+    "job_requirement": "macroeconomic/economic analysis",
+    "candidate_evidence": [
+      "Dauphine international and development economics training",
+      "transition thesis on green industrial sectors"
+    ],
+    "recommended_use": [
+      "cv_education",
+      "cv_projects",
+      "cover_letter"
+    ]
+  },
+  {
+    "job_requirement": "presentations/reports",
+    "candidate_evidence": [
+      "Greenly client deliverables and reporting slides",
+      "policy notes and writing synthesis"
+    ],
+    "recommended_use": [
+      "cv_experience",
+      "cover_letter"
+    ]
+  },
+  {
+    "job_requirement": "international environment",
+    "candidate_evidence": [
+      "Maastricht University European affairs training",
+      "English C2",
+      "international organizations profile"
+    ],
+    "recommended_use": [
+      "cv_education",
+      "cv_languages",
+      "cover_letter"
+    ]
+  }
+]
