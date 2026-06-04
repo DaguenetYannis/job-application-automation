@@ -109,6 +109,23 @@ applications/<application_id>/outputs/pdf/cv.pdf
 applications/<application_id>/outputs/pdf/cover_letter.pdf
 ```
 
+## Generation Quality Controls
+
+The app now creates:
+- `document_strategy.json`
+- `requirement_mapping.json`
+- `quality_warnings.json`
+- `logs/prompt.txt`
+
+These files help debug weak outputs.
+
+If the generated CV or cover letter is too generic, inspect:
+1. `selected_context.json`
+2. `document_strategy.json`
+3. `requirement_mapping.json`
+4. `logs/prompt.txt`
+5. `quality_warnings.json`
+
 ## Where To Add Materials
 
 - Previous CV examples: `data/examples/cvs/`

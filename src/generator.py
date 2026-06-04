@@ -4,12 +4,15 @@ import json
 from pathlib import Path
 from typing import Any
 
+from src.document_strategy import DocumentStrategyBuilder
 from src.latex_renderer import LatexRenderer
 from src.latex_utils import escape_latex_data
 from src.models import ApplicationMetadata, JobInput, ParsedJob
 from src.openai_client import OpenAIClient
+from src.output_validator import GeneratedContentValidator
 from src.pdf_compiler import PDFCompiler
 from src.prompt_builder import PromptBuilder
+from src.requirement_mapper import RequirementMapper
 from src.repositories import ProfileRepository
 from src.tracker import ApplicationTracker
 
@@ -22,12 +25,18 @@ class ApplicationGenerator:
         latex_renderer: LatexRenderer | None = None,
         pdf_compiler: PDFCompiler | None = None,
         profile_repository: ProfileRepository | None = None,
+        document_strategy_builder: DocumentStrategyBuilder | None = None,
+        requirement_mapper: RequirementMapper | None = None,
+        output_validator: GeneratedContentValidator | None = None,
     ) -> None:
         self.prompt_builder = prompt_builder or PromptBuilder()
         self.openai_client = openai_client or OpenAIClient()
         self.latex_renderer = latex_renderer or LatexRenderer()
         self.pdf_compiler = pdf_compiler or PDFCompiler()
         self.profile_repository = profile_repository or ProfileRepository()
+        self.document_strategy_builder = document_strategy_builder or DocumentStrategyBuilder()
+        self.requirement_mapper = requirement_mapper or RequirementMapper()
+        self.output_validator = output_validator or GeneratedContentValidator()
 
     def generate(
         self,
@@ -41,6 +50,18 @@ class ApplicationGenerator:
         logs_dir = application_dir / "logs"
         logs_dir.mkdir(parents=True, exist_ok=True)
         api_log = logs_dir / "api_generation.log"
+        document_strategy = self.document_strategy_builder.build(job_input, parsed_job, selected_context)
+        requirement_mapping = self.requirement_mapper.build_mapping(parsed_job, selected_context)
+        self._write_json(application_dir / "document_strategy.json", document_strategy)
+        self._write_json(application_dir / "requirement_mapping.json", requirement_mapping)
+        prompt = self.prompt_builder.build_application_prompt(
+            job_input,
+            parsed_job,
+            selected_context,
+            document_strategy,
+            requirement_mapping,
+        )
+        (logs_dir / "prompt.txt").write_text(prompt + "\n", encoding="utf-8")
 
         if not self.openai_client.is_configured():
             message = (
@@ -52,14 +73,17 @@ class ApplicationGenerator:
             tracker.update_status(metadata.application_id, "context_selected_no_api")
             return "context_selected_no_api"
 
-        prompt = self.prompt_builder.build_application_prompt(job_input, parsed_job, selected_context)
         api_log.write_text("Calling OpenAI for structured JSON content.\n", encoding="utf-8")
         generated = self.openai_client.generate_application_json(prompt)
-        (application_dir / "generated_content.json").write_text(
-            json.dumps(generated, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        self._write_json(application_dir / "generated_content.json", generated)
         tracker.update_status(metadata.application_id, "generated_json")
+
+        quality_warnings = self.output_validator.validate(generated, selected_context, document_strategy)
+        self._write_json(application_dir / "quality_warnings.json", quality_warnings)
+        if quality_warnings:
+            print("Generation quality warnings:")
+            for warning in quality_warnings:
+                print(f"- {warning}")
 
         escaped_generated = escape_latex_data(generated)
         candidate_identity = self._candidate_identity()
@@ -93,6 +117,9 @@ class ApplicationGenerator:
         print(f"CV PDF: {cv_pdf}")
         print(f"Cover letter PDF: {cover_letter_pdf}")
         return "pdf_generated"
+
+    def _write_json(self, path: Path, data: Any) -> None:
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     def _candidate_identity(self) -> dict[str, str]:
         profile = self.profile_repository.load()

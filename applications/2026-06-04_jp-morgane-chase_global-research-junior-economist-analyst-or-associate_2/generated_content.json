@@ -1,0 +1,92 @@
+{
+  "cv": {
+    "title": "Junior Economist | Economic Research and Data Analysis",
+    "profile_paragraph": "Economist with strong quantitative and data skills, focused on evidence-based analysis and structured synthesis. Experience includes data cleaning, statistical analysis, policy-oriented research, and writing concise notes and documentation. Comfortable working with multi-source datasets, R and Python tools, and supporting analysis through rigorous organization and attention to detail.",
+    "skill_groups": [
+      {
+        "label": "Econometrics",
+        "content": "Applied econometrics, regressions, panel data, difference-in-differences, quantitative analysis, interpretation"
+      },
+      {
+        "label": "Data and spreadsheets",
+        "content": "Excel, data structuring, cleaning, quality checks, schema normalization, variable dictionaries"
+      },
+      {
+        "label": "Research and synthesis",
+        "content": "Literature review, policy notes, structured writing, methodology documentation, presentation support"
+      },
+      {
+        "label": "Programming tools",
+        "content": "R, Python, tidyverse, ggplot2, dplyr, plm, pandas, DuckDB, R Markdown"
+      }
+    ],
+    "experiences": [
+      {
+        "organization": "DataForGood / Reclaim Finance",
+        "role": "Data and research contributor",
+        "location": "",
+        "dates": "",
+        "bullets": [
+          "Built and cleaned multi-source datasets using Python and SQL tools.",
+          "Worked on variable dictionaries, schema normalization and quality checks.",
+          "Contributed to analytical outputs based on structured data for decision-making."
+        ]
+      },
+      {
+        "organization": "Greenly",
+        "role": "Data and climate analysis contributor",
+        "location": "",
+        "dates": "",
+        "bullets": [
+          "Worked with carbon data and greenhouse gas methodologies.",
+          "Handled data related to purchases, freight, recycling, sold products and emission factors.",
+          "Supported structured analysis and documentation across data sources."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Transition industrielle verte - Master thesis",
+        "year": "",
+        "bullets": [
+          "Master research on green industrial transition.",
+          "Connected economic analysis with climate policy issues."
+        ],
+        "url": "",
+        "url_label": ""
+      },
+      {
+        "name": "Portfolio analytique",
+        "year": "",
+        "bullets": [
+          "Applied economics projects using data analysis and synthesis.",
+          "Included econometrics, statistics and structured writing."
+        ],
+        "url": "",
+        "url_label": ""
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université Paris Dauphine",
+        "dates": "",
+        "degree": "Master's degree",
+        "details": "Economics, public economics, evaluation, applied econometrics, quantitative analysis"
+      }
+    ],
+    "certifications": [],
+    "languages": "English"
+  },
+  "cover_letter": {
+    "date": "",
+    "subject": "Application for Global Research - Junior Economist - Analyst or Associate",
+    "greeting": "Dear Hiring Manager,",
+    "paragraphs": [
+      "I am applying for the Global Research - Junior Economist - Analyst or Associate position within the Economic Research Team at JPMorgan Chase. My background combines economics, applied econometrics, and data analysis, with experience in structuring datasets, conducting quantitative analysis, and writing concise analytical notes.",
+      "Through academic work at Université Paris Dauphine and project experience with DataForGood, Reclaim Finance, and Greenly, I developed a strong habit of working with complex data, checking quality carefully, and turning information into clear synthesis. This experience is directly relevant to the role's focus on data gathering, database updates, statistical analysis, and support for presentations and reports.",
+      "I am particularly interested in a role where economic reasoning, quantitative methods, and careful synthesis are used to support research on economies and market developments. I am comfortable working independently with strong organization and attention to detail, while also contributing as part of an international team.",
+      "I would welcome the opportunity to contribute to JPMorgan Chase's Economic Research Team and to support senior economists with rigorous analysis and well-structured outputs."
+    ],
+    "closing": "Yours faithfully,"
+  }
+}

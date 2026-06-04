@@ -13,6 +13,87 @@ from src.repositories import (
 )
 
 
+EVIDENCE_TERMS = {
+    "tools": [
+        "Python",
+        "R",
+        "SQL",
+        "DuckDB",
+        "BigQuery",
+        "PostgreSQL",
+        "Power BI",
+        "Power Query",
+        "Excel",
+        "Google Sheets",
+        "Google Apps Script",
+        "Stata",
+        "Git",
+    ],
+    "datasets": [
+        "fiscal data",
+        "commune-year observations",
+        "purchases",
+        "freight",
+        "sold products",
+        "emission factors",
+        "ESG data",
+        "carbon data",
+        "images",
+        "input-output data",
+        "Eora26",
+        "Exiobase",
+        "Atlas of Economic Complexity",
+        "Parquet",
+    ],
+    "methods": [
+        "data cleaning",
+        "schema normalization",
+        "quality checks",
+        "regression",
+        "econometrics",
+        "cross-validation",
+        "feature engineering",
+        "indicator construction",
+        "pipeline",
+        "ETL",
+        "scoring",
+        "visualization",
+        "documentation",
+    ],
+    "outputs": [
+        "dashboard",
+        "reporting",
+        "reports",
+        "slides",
+        "documentation",
+        "policy note",
+        "presentation",
+        "indicators",
+        "tables",
+        "PDF",
+        "portfolio",
+    ],
+    "domain": [
+        "climate",
+        "carbon",
+        "ESG",
+        "public policy",
+        "fiscal vulnerability",
+        "biodiversity",
+        "industrial policy",
+        "green transition",
+        "international economics",
+        "development economics",
+        "competition",
+        "CBAM",
+        "MACF",
+        "SBTi",
+        "FLAG",
+        "GHG Protocol",
+    ],
+}
+
+
 class ContextSelector:
     def __init__(
         self,
@@ -60,6 +141,17 @@ class ContextSelector:
         max_skill_blocks = int(top_profile.get("context_budget", {}).get("max_skill_blocks", 8))
         selected_skill_ids = selected_skill_ids[:max_skill_blocks]
 
+        selected_experiences = self._select_named_items(
+            candidate_profile.get("experiences", []),
+            self._preferred_values(selected_profiles, "preferred_experiences"),
+            "organization",
+        )
+        selected_projects = self._select_named_items(
+            candidate_profile.get("projects", []),
+            self._preferred_values(selected_profiles, "preferred_projects"),
+            "name",
+        )
+
         return {
             "language": language,
             "selected_role_categories": selected_categories,
@@ -75,16 +167,19 @@ class ContextSelector:
                 "cv": self.template_repository.select_cv_template(language),
                 "cover_letter": self.template_repository.select_cover_letter_template(language),
             },
-            "selected_experiences": self._select_named_items(
+            "selected_experiences": selected_experiences,
+            "selected_experience_details": self.select_experience_details(
                 candidate_profile.get("experiences", []),
-                self._preferred_values(selected_profiles, "preferred_experiences"),
-                "organization",
+                selected_experiences,
             ),
-            "selected_projects": self._select_named_items(
+            "selected_projects": selected_projects,
+            "selected_project_details": self.select_project_details(
                 candidate_profile.get("projects", []),
-                self._preferred_values(selected_profiles, "preferred_projects"),
-                "name",
+                selected_projects,
             ),
+            "candidate_education": self._compact_education(candidate_profile.get("education", [])),
+            "candidate_languages": candidate_profile.get("languages", []),
+            "candidate_certifications": candidate_profile.get("certifications", []),
             "notes": " ".join(notes),
         }
 
@@ -158,6 +253,105 @@ class ContextSelector:
             return selected[:3]
 
         return [str(item.get(name_key)) for item in items[:2] if item.get(name_key)]
+
+    def select_experience_details(self, experiences: list[dict], organization_names: list[str]) -> list[dict[str, Any]]:
+        details: list[dict[str, Any]] = []
+        for name in organization_names:
+            for experience in experiences:
+                if self._names_match(name, str(experience.get("organization", ""))):
+                    details.append(self.compact_experience_detail(experience))
+                    break
+        return details
+
+    def select_project_details(self, projects: list[dict], project_names: list[str]) -> list[dict[str, Any]]:
+        details: list[dict[str, Any]] = []
+        for name in project_names:
+            for project in projects:
+                if self._names_match(name, str(project.get("name", ""))):
+                    details.append(self.compact_project_detail(project))
+                    break
+        return details
+
+    def compact_experience_detail(self, experience: dict) -> dict[str, Any]:
+        evidence = experience.get("evidence") or self.derive_evidence(experience)
+        return {
+            "organization": experience.get("organization", ""),
+            "role": experience.get("role", ""),
+            "location": experience.get("location", ""),
+            "dates": self._date_range(experience),
+            "type": experience.get("type", ""),
+            "keywords": experience.get("keywords", []),
+            "description": experience.get("description", {}),
+            "achievements": experience.get("achievements", []),
+            "evidence": self._normalize_evidence(evidence),
+        }
+
+    def compact_project_detail(self, project: dict) -> dict[str, Any]:
+        evidence = project.get("evidence") or self.derive_evidence(project)
+        return {
+            "name": project.get("name", ""),
+            "year": str(project.get("year", "")),
+            "institution": project.get("institution", ""),
+            "keywords": project.get("keywords", []),
+            "description": project.get("description", {}),
+            "evidence": self._normalize_evidence(evidence),
+        }
+
+    def derive_evidence(self, item: dict) -> dict[str, list[str]]:
+        text_parts: list[str] = []
+        text_parts.extend(str(keyword) for keyword in item.get("keywords", []))
+        description = item.get("description", {})
+        if isinstance(description, dict):
+            text_parts.extend(str(value) for value in description.values())
+        else:
+            text_parts.append(str(description))
+        text_parts.extend(str(achievement) for achievement in item.get("achievements", []))
+        combined = "\n".join(text_parts)
+        normalized_text = self._normalize(combined)
+
+        evidence: dict[str, list[str]] = {key: [] for key in EVIDENCE_TERMS}
+        for bucket, terms in EVIDENCE_TERMS.items():
+            for term in terms:
+                if self._normalize(term) in normalized_text and term not in evidence[bucket]:
+                    evidence[bucket].append(term)
+        return evidence
+
+    def _normalize_evidence(self, evidence: dict) -> dict[str, list[str]]:
+        normalized: dict[str, list[str]] = {}
+        for bucket in EVIDENCE_TERMS:
+            values = evidence.get(bucket, []) if isinstance(evidence, dict) else []
+            if isinstance(values, str):
+                values = [values]
+            normalized[bucket] = [str(value) for value in values if str(value).strip()]
+        return normalized
+
+    def _names_match(self, expected: str, actual: str) -> bool:
+        expected_normalized = self._normalize(expected)
+        actual_normalized = self._normalize(actual)
+        return bool(
+            expected_normalized
+            and actual_normalized
+            and (expected_normalized in actual_normalized or actual_normalized in expected_normalized)
+        )
+
+    def _date_range(self, item: dict) -> str:
+        start = item.get("start_year", "")
+        end = item.get("end_year", "")
+        if start and end:
+            return f"{start}-{end}"
+        return str(start or end or item.get("dates", ""))
+
+    def _compact_education(self, education: list[dict]) -> list[dict[str, Any]]:
+        return [
+            {
+                "institution": item.get("institution", ""),
+                "location": item.get("location", ""),
+                "degree": item.get("degree", ""),
+                "dates": self._date_range(item),
+                "coursework": item.get("coursework", []),
+            }
+            for item in education
+        ]
 
     def _compact_role_profile(self, profile: dict) -> dict[str, Any]:
         return {

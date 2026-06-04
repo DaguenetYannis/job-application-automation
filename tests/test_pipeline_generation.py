@@ -86,6 +86,10 @@ def test_pipeline_generation_writes_generated_outputs_and_pdf_status() -> None:
         folder = Path(metadata.folder_path)
 
         assert (folder / "generated_content.json").exists()
+        assert (folder / "document_strategy.json").exists()
+        assert (folder / "requirement_mapping.json").exists()
+        assert (folder / "logs" / "prompt.txt").exists()
+        assert (folder / "quality_warnings.json").exists()
         assert (folder / "outputs" / "cv" / "cv.tex").exists()
         assert (folder / "outputs" / "cover_letter" / "cover_letter.tex").exists()
         assert (folder / "outputs" / "pdf" / "cv.pdf").exists()
@@ -96,5 +100,7 @@ def test_pipeline_generation_writes_generated_outputs_and_pdf_status() -> None:
 
         generated = json.loads((folder / "generated_content.json").read_text(encoding="utf-8"))
         assert generated["cv"]["title"] == "Data Analyst"
+        warnings = json.loads((folder / "quality_warnings.json").read_text(encoding="utf-8"))
+        assert warnings
     finally:
         shutil.rmtree(root, ignore_errors=True)

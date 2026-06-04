@@ -28,9 +28,20 @@ def write_profile(path: Path) -> None:
         """
 experiences:
   - organization: Greenly
+    role: Data Analyst
+    keywords:
+      - Python
+      - SQL
+      - carbon data
+    achievements:
+      - Used BigQuery and PostgreSQL for reporting.
   - organization: DataForGood / Reclaim Finance
+    achievements:
+      - Pipeline Python et DuckDB couvrant 43 annees de fiscal data.
 projects:
   - name: Portfolio analytique
+    keywords:
+      - Reporting
   - name: Pipeline Machine Learning supervisé
 """.strip()
         + "\n",
@@ -61,6 +72,10 @@ def test_context_selector_selects_bi_reporting_and_relevant_skills() -> None:
         assert "kpi_reporting" in skill_ids
         assert "Greenly" in context["selected_experiences"]
         assert "Portfolio analytique" in context["selected_projects"]
+        assert context["selected_experience_details"]
+        assert context["selected_project_details"]
+        assert "evidence" in context["selected_experience_details"][0]
+        assert "tools" in context["selected_experience_details"][0]["evidence"]
     finally:
         shutil.rmtree(root, ignore_errors=True)
 

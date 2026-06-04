@@ -1,0 +1,93 @@
+{
+  "cv": {
+    "title": "Junior Economist | Economic Research and Data Analysis",
+    "profile_paragraph": "Economist with a strong quantitative and data-focused profile, combining applied econometrics, data structuring and policy-oriented analysis. Experience in cleaning, documenting and analyzing multi-source datasets, producing clear syntheses and supporting evidence-based decision-making. Comfortable working with statistical tools, spreadsheets and structured reporting in collaborative environments.",
+    "skill_groups": [
+      {
+        "label": "Econometrics and statistics",
+        "content": "Applied econometrics, regressions, panel data, quantitative analysis, interpretation of results, R, statistical reasoning"
+      },
+      {
+        "label": "Data handling",
+        "content": "Data structuring and cleaning, multi-source datasets, quality checks, normalization, variable dictionaries, Python, CSV and Excel ingestion"
+      },
+      {
+        "label": "Writing and synthesis",
+        "content": "Policy notes, methodological documentation, structured synthesis, report writing, audience adaptation"
+      },
+      {
+        "label": "Economic analysis",
+        "content": "Public economics, applied economics, economic reasoning, evidence-based analysis, development and policy-oriented topics"
+      }
+    ],
+    "experiences": [
+      {
+        "organization": "DataForGood / Reclaim Finance",
+        "role": "Analytical Project Contributor",
+        "location": "",
+        "dates": "",
+        "bullets": [
+          "Structured and cleaned multi-source data for analytical use.",
+          "Built a variable dictionary, normalized schemas and performed quality checks.",
+          "Used Python and DuckDB to ingest Excel and CSV files, transform data and convert outputs to Parquet.",
+          "Supported the production of reliable datasets for analysis and reporting."
+        ]
+      },
+      {
+        "organization": "Greenly",
+        "role": "Data and Carbon Analysis Contributor",
+        "location": "",
+        "dates": "",
+        "bullets": [
+          "Worked with carbon data and greenhouse gas methodologies.",
+          "Handled data related to purchases, freight, recycling, sold products and emission factors.",
+          "Contributed to structured documentation and operational materials."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Transition industrielle verte - Master's thesis",
+        "year": "",
+        "bullets": [
+          "Academic research on green industrial transition.",
+          "Linked economic issues with climate policy and trade-related instruments."
+        ],
+        "url": "",
+        "url_label": ""
+      },
+      {
+        "name": "Portfolio analytique",
+        "year": "",
+        "bullets": [
+          "Applied economics and econometrics work in an academic setting.",
+          "Includes analysis, visualization and structured written outputs."
+        ],
+        "url": "",
+        "url_label": ""
+      }
+    ],
+    "education": [
+      {
+        "institution": "Université Paris-Dauphine",
+        "dates": "",
+        "degree": "Master's degree in economics",
+        "details": "Training in public economics, applied econometrics, statistics and quantitative analysis."
+      }
+    ],
+    "certifications": [],
+    "languages": "English"
+  },
+  "cover_letter": {
+    "date": "",
+    "subject": "Application for Global Research - Junior Economist - Analyst or Associate",
+    "greeting": "Dear Hiring Manager,",
+    "paragraphs": [
+      "I am applying for the Global Research - Junior Economist - Analyst or Associate position within JPMorgan Chase's Economic Research Team. My background in economics combines applied econometrics, data structuring and policy-oriented analysis, with experience in turning complex datasets into clear and usable outputs.",
+      "Through academic work and project experience, I have developed a strong quantitative approach to economic questions. I have worked on data cleaning, schema normalization, quality checks and analytical documentation, and I have used statistical tools and Python-based workflows to prepare reliable datasets for analysis. This has strengthened my attention to detail, my organization and my ability to synthesize information clearly.",
+      "I am particularly interested in the opportunity to support senior economists with data gathering, statistical analysis, monitoring of data releases and contributions to reports and presentations. The role's emphasis on rigorous analysis, structured writing and collaboration in an international environment is closely aligned with my profile and working style.",
+      "I would welcome the opportunity to contribute my analytical skills, economic training and commitment to high-quality work to JPMorgan Chase's Economic Research Team."
+    ],
+    "closing": "Sincerely,"
+  }
+}

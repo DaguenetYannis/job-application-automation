@@ -1,0 +1,197 @@
+{
+  "language": "en",
+  "selected_role_categories": [
+    "04_economist_policy_analyst",
+    "06_industrial_policy_competition"
+  ],
+  "selected_role_profiles": [
+    {
+      "category_id": "04_economist_policy_analyst",
+      "label": "Economist and Policy Analyst",
+      "cv_angle": "Economist with strong quantitative and data skills, focused on evidence-based policy analysis.",
+      "cover_letter_angle": "Emphasize the link between economic reasoning, quantitative methods and public decision-making.",
+      "tone": [
+        "analytical",
+        "institutional",
+        "structured",
+        "policy-oriented"
+      ]
+    },
+    {
+      "category_id": "06_industrial_policy_competition",
+      "label": "Industrial Policy and Competition",
+      "cv_angle": "Economist focused on industrial policy, competition, value chains and low-carbon transition.",
+      "cover_letter_angle": "Emphasize economic reasoning, quantitative analysis and the ability to connect regulation, competitiveness and climate policy.",
+      "tone": [
+        "institutional",
+        "economic",
+        "precise",
+        "policy-oriented"
+      ]
+    }
+  ],
+  "selected_cv_examples": [
+    "data/examples/cvs/04_economist_policy_analyst/CV_Économiste & analyse des politiques publiques.pdf"
+  ],
+  "selected_cover_letter_examples": [
+    "data/examples/cover_letters/04_economist_policy_analyst/Lettre_DAGUENET_Yannis.pdf"
+  ],
+  "selected_skill_blocks": [
+    {
+      "skill_id": "econometrics",
+      "label": "Econometrics",
+      "short": "Applied econometrics to analyze data, test relationships and support public policy evaluation.",
+      "medium": "Regressions, panel data, difference-in-differences, Stata, R, quantitative analysis and interpretation.",
+      "keywords": [
+        "econometrics",
+        "regression",
+        "panel data",
+        "difference-in-differences",
+        "Stata",
+        "R"
+      ],
+      "evidence": [
+        "Dauphine: applied econometrics, Stata/R, regressions, panels and evaluation.",
+        "Structural gravity project and applied economics."
+      ]
+    },
+    {
+      "skill_id": "public_policy_analysis",
+      "label": "Public policy analysis",
+      "short": "Data-driven public policy analysis based on indicators, evidence and decision-oriented synthesis.",
+      "medium": "Turning data and quantitative methods into diagnosis, indicators, notes, limitations and careful recommendations.",
+      "keywords": [
+        "public policy",
+        "evaluation",
+        "indicators",
+        "public decision-making",
+        "policy note"
+      ],
+      "evidence": [
+        "Dauphine: public economics, evaluation and quantitative analysis.",
+        "DataForGood / Reclaim Finance: territorial indicators to support public decision-making."
+      ]
+    },
+    {
+      "skill_id": "climate_policy",
+      "label": "Climate policy",
+      "short": "Climate transition analysis connecting data, public policy, carbon accounting and economic issues.",
+      "medium": "Applied climate policy: carbon reporting, territorial adaptation, industrial transition, CBAM/MACF and economic instruments.",
+      "keywords": [
+        "climate",
+        "transition",
+        "adaptation",
+        "CBAM",
+        "MACF",
+        "decarbonization"
+      ],
+      "evidence": [
+        "Greenly: carbon data and GHG methodologies.",
+        "Master thesis on green industrial transition and MACF / CBAM note.",
+        "DataForGood / Reclaim Finance: fiscal vulnerability to climate risks."
+      ]
+    },
+    {
+      "skill_id": "writing_synthesis",
+      "label": "Writing and synthesis",
+      "short": "Writing syntheses, notes and documentation that connect data, method and decision-making.",
+      "medium": "Policy notes, methodology documentation, operational guides, structured arguments and audience adaptation.",
+      "keywords": [
+        "policy note",
+        "synthesis",
+        "documentation",
+        "methodology",
+        "policy writing"
+      ],
+      "evidence": [
+        "Policy notes, methodology documentation, Notion guides and Greenly materials.",
+        "AFD biodiversity note and MACF / CBAM note."
+      ]
+    },
+    {
+      "skill_id": "data_structuring_cleaning",
+      "label": "Data structuring and cleaning",
+      "short": "Structuring and cleaning multi-source data to produce reliable and documented datasets.",
+      "medium": "Central skill covering cleaning, normalization, schema harmonization, variable dictionaries and quality checks.",
+      "keywords": [
+        "cleaning",
+        "quality",
+        "normalization",
+        "schema",
+        "dictionary",
+        "multi-source"
+      ],
+      "evidence": [
+        "Greenly: purchases, freight, recycling, sold products and emission factors.",
+        "DataForGood / Reclaim Finance: variable dictionary, schema normalization and quality checks."
+      ]
+    },
+    {
+      "skill_id": "r",
+      "label": "R for statistics",
+      "short": "R for statistical analysis, applied econometrics, visualization and reproducible reporting.",
+      "medium": "R in academic work with tidyverse, ggplot2, dplyr, plm, caret and R Markdown.",
+      "keywords": [
+        "R",
+        "tidyverse",
+        "ggplot2",
+        "dplyr",
+        "plm",
+        "caret",
+        "R Markdown"
+      ],
+      "evidence": [
+        "Dauphine: econometrics, statistics, visualization and applied projects in R.",
+        "Difference-in-differences, panel data and applied economics in an academic setting."
+      ]
+    },
+    {
+      "skill_id": "python_data",
+      "label": "Python data",
+      "short": "Python to structure, clean, transform and document large datasets.",
+      "medium": "Python for Excel/CSV ingestion, transformations, quality checks, documentation and Parquet conversion.",
+      "keywords": [
+        "Python",
+        "DuckDB",
+        "pandas",
+        "Parquet",
+        "CSV",
+        "quality checks"
+      ],
+      "evidence": [
+        "DataForGood / Reclaim Finance: Python pipeline, DuckDB, Excel/CSV ingestion, Parquet conversion and data dictionary.",
+        "Quality checks on a fiscal dataset covering French municipalities."
+      ]
+    },
+    {
+      "skill_id": "industrial_policy",
+      "label": "Industrial policy",
+      "short": "Industrial policy analysis covering value chains, competitiveness and low-carbon transition.",
+      "medium": "Economic analysis of productive capabilities, value chains, climate instruments, competitiveness and industrial decarbonization.",
+      "keywords": [
+        "industrial policy",
+        "value chains",
+        "competitiveness",
+        "CBAM",
+        "ETS"
+      ],
+      "evidence": [
+        "Master thesis on green industrial sectors, Eora26, Exiobase and economic complexity.",
+        "MACF / CBAM note on competitiveness, free allowances and industrial decarbonization."
+      ]
+    }
+  ],
+  "selected_templates": {
+    "cv": "cv/cv_base_en.tex.j2",
+    "cover_letter": "cover_letter/cover_letter_base_en.tex.j2"
+  },
+  "selected_experiences": [
+    "DataForGood / Reclaim Finance",
+    "Greenly"
+  ],
+  "selected_projects": [
+    "Transition industrielle verte - Mémoire de Master",
+    "Portfolio analytique"
+  ],
+  "notes": "Rule-based context selection, no API call."
+}

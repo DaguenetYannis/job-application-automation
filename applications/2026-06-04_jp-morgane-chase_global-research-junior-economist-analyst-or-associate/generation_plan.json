@@ -1,0 +1,42 @@
+{
+  "status": "context_selected",
+  "language": "en",
+  "selected_role_categories": [
+    "04_economist_policy_analyst",
+    "06_industrial_policy_competition"
+  ],
+  "cv_template": "cv/cv_base_en.tex.j2",
+  "cover_letter_template": "cover_letter/cover_letter_base_en.tex.j2",
+  "selected_cv_examples": [
+    "data/examples/cvs/04_economist_policy_analyst/CV_Économiste & analyse des politiques publiques.pdf"
+  ],
+  "selected_cover_letter_examples": [
+    "data/examples/cover_letters/04_economist_policy_analyst/Lettre_DAGUENET_Yannis.pdf"
+  ],
+  "selected_skill_blocks": [
+    "econometrics",
+    "public_policy_analysis",
+    "climate_policy",
+    "writing_synthesis",
+    "data_structuring_cleaning",
+    "r",
+    "python_data",
+    "industrial_policy"
+  ],
+  "selected_experiences": [
+    "DataForGood / Reclaim Finance",
+    "Greenly"
+  ],
+  "selected_projects": [
+    "Transition industrielle verte - Mémoire de Master",
+    "Portfolio analytique"
+  ],
+  "next_steps": [
+    "build_prompts",
+    "generate_structured_cv_content",
+    "generate_structured_cover_letter_content",
+    "render_latex",
+    "compile_pdfs"
+  ],
+  "notes": "No API call has been made."
+}
