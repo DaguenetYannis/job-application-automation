@@ -1,11 +1,366 @@
-name:
-email:
-phone:
-location:
-linkedin:
-github:
-portfolio:
-education: []
-experiences: []
-skills: []
-languages: []
+name: Yannis Daguenet
+email: [yannisdaguenet@gmail.com](mailto:yannisdaguenet@gmail.com)
+phone: "+33 6 04 43 91 20"
+location: Paris, France
+linkedin: https://linkedin.com/in/yannis-daguenet
+github: https://github.com/DaguenetYannis
+portfolio: https://daguenetyannisportfolio.netlify.app/
+
+target_roles:
+
+* Data Analyst
+* BI Reporting Analyst
+* Business Intelligence Analyst
+* Public Policy Data Analyst
+* Economist / Policy Analyst
+* Climate Data Analyst
+* Research Data Analyst
+
+profile_summary:
+fr: >
+Data analyst et économiste junior spécialisé dans l'analyse quantitative, la structuration de données,
+la construction d'indicateurs et la production de restitutions décisionnelles. Expérience en SQL, Python,
+R, Power BI, Excel avancé, Power Query et automatisation de workflows pour transformer des données
+hétérogènes en analyses exploitables par des équipes métier, des acteurs publics et des clients non techniques.
+en: >
+Junior data analyst and economist specialized in quantitative analysis, data structuring, KPI development,
+and decision-oriented reporting. Experience with SQL, Python, R, Power BI, advanced Excel, Power Query,
+and workflow automation to turn heterogeneous datasets into actionable insights for business teams,
+public-sector stakeholders, and non-technical clients.
+
+education:
+
+* institution: Université Paris Dauphine
+  location: Paris, France
+  degree: Master 2 Économétrie, Économie Internationale & Développement
+  start_year: 2023
+  end_year: 2024
+  coursework:
+
+  * Économétrie avancée
+  * Évaluation des politiques publiques
+  * Économie de l'environnement
+  * Économie industrielle
+  * Économie du travail
+  * Méthodes quantitatives
+  * Analyse statistique
+
+* institution: Maastricht University
+  location: Maastricht, Netherlands
+  degree: Master Affaires Européennes
+  start_year: 2020
+  end_year: 2022
+  coursework:
+
+  * Politiques publiques européennes
+  * Économie politique
+  * Gouvernance économique
+  * Méthodes quantitatives
+  * Analyse institutionnelle
+
+* institution: Institut Catholique de Paris
+  location: Paris, France
+  degree: Licence Économie, Politique & Sciences Sociales
+  start_year: 2017
+  end_year: 2020
+  coursework:
+
+  * Économie
+  * Science politique
+  * Sciences sociales
+  * Relations internationales
+
+experiences:
+
+* organization: Greenly
+  role: Stagiaire Data Analyst & Climat
+  location: Paris, France
+  start_year: 2025
+  end_year: 2025
+  type: internship
+  keywords:
+
+  * Data analysis
+  * ESG data
+  * Carbon accounting
+  * SQL
+  * Python
+  * Excel
+  * Google Sheets
+  * Google Apps Script
+  * Power BI
+  * Reporting
+  * Workflow automation
+    description:
+    fr: >
+    Analyse, structuration et fiabilisation de données carbone multi-clients issues d'achats,
+    de fret, de produits vendus, de facteurs d'émission et de données d'activité. Développement
+    de workflows ETL légers, de contrôles qualité, de scripts d'automatisation et de supports
+    de reporting pour des interlocuteurs métiers et clients non techniques.
+    en: >
+    Analyzed, structured, and validated multi-client carbon datasets covering purchases, freight,
+    sold products, emission factors, and activity data. Developed lightweight ETL workflows,
+    quality checks, automation scripts, and reporting materials for business users and non-technical clients.
+    achievements:
+  * Requêtes SQL sous BigQuery et PostgreSQL pour extraire, filtrer, rapprocher et contrôler des données ESG.
+  * Développement de scripts Python et Google Apps Script pour nettoyer, transformer et standardiser des fichiers Excel/CSV.
+  * Automatisation de traitements récurrents : rapprochement de libellés, données multi-matériaux, distances de fret via API Google Maps, contrôles d'anomalies.
+  * Production d'indicateurs, de tableaux de bord, de slides et de supports de restitution pour clients et équipes internes.
+  * Rédaction de documentation méthodologique interne sur le reporting carbone, SBTi, FLAG et les analyses de transport.
+
+* organization: DataForGood / Reclaim Finance
+  role: Data Analyst
+  location: Paris, France
+  start_year: 2025
+  end_year: present
+  type: volunteer
+  keywords:
+
+  * Python
+  * DuckDB
+  * SQL
+  * Fiscal data
+  * Climate risk
+  * Public policy
+  * Territorial analysis
+  * Power BI
+  * Data quality
+  * Indicators
+    description:
+    fr: >
+    Projet collaboratif d'analyse territoriale sur la vulnérabilité fiscale des communes françaises
+    face aux risques climatiques. Structuration de pipelines de données reproductibles en Python
+    et DuckDB, construction d'indicateurs et documentation des traitements dans un environnement
+    pluridisciplinaire.
+    en: >
+    Collaborative territorial analysis project on the fiscal vulnerability of French municipalities
+    to climate risks. Built reproducible data pipelines with Python and DuckDB, developed indicators,
+    and documented analytical workflows in a cross-functional environment.
+    achievements:
+  * Pipeline Python et DuckDB couvrant 43 années de fichiers fiscaux locaux.
+  * Traitement d'environ 1,56M observations commune-année.
+  * Conversion de fichiers Excel/CSV en tables analytiques et formats Parquet.
+  * Construction d'indicateurs de potentiel fiscal, effort fiscal et vulnérabilité.
+  * Mise en place de tests qualité, documentation des variables et revue collective des traitements.
+  * Exploration et prototypage de restitutions sous Power BI pour visualiser des indicateurs territoriaux.
+
+* organization: BioLit / DataForGood
+  role: Data Analyst & appui ML
+  location: Paris, France
+  start_year: 2025
+  end_year: 2025
+  type: volunteer
+  keywords:
+
+  * Data cleaning
+  * Image data
+  * Machine learning support
+  * Data validation
+  * Biodiversity
+  * Visualization
+    description:
+    fr: >
+    Appui à un projet de suivi de biodiversité à partir d'images utilisateurs, avec nettoyage,
+    validation et structuration des données pour soutenir les travaux de segmentation, classification
+    et interprétation métier.
+    en: >
+    Supported a biodiversity monitoring project based on user-submitted images by cleaning,
+    validating, and structuring data for segmentation, classification, and business interpretation.
+    achievements:
+  * Nettoyage et validation de données issues d'images utilisateurs.
+  * Appui aux pipelines ML de segmentation et classification.
+  * Production de visualisations analytiques pour faciliter l'interprétation par les équipes métier.
+
+projects:
+
+* name: Portfolio analytique
+  year: 2026
+  url: https://daguenetyannisportfolio.netlify.app/
+  keywords:
+
+  * Data analysis
+  * Visualization
+  * Reporting
+  * Python
+  * R
+  * Public policy
+  * Climate economics
+    description:
+    fr: >
+    Mise en ligne de projets d'analyse appliquée combinant préparation de données, visualisation,
+    indicateurs et restitution structurée : transition industrielle verte, CBAM, commerce international
+    et machine learning.
+    en: >
+    Published applied analytical projects combining data preparation, visualization, indicators,
+    and structured reporting, including green industrial transition, CBAM, international trade,
+    and machine learning.
+
+* name: Transition industrielle verte - Mémoire de Master
+  year: 2024
+  institution: Université Paris Dauphine
+  keywords:
+
+  * Input-output analysis
+  * MRIO
+  * Eora26
+  * Exiobase
+  * Economic complexity
+  * Carbon emissions
+  * Green transition
+  * Data visualization
+    description:
+    fr: >
+    Analyse de bases internationales volumineuses pour étudier l'émergence des secteurs industriels
+    verts, à partir de données input-output, d'émissions carbone et d'indicateurs de capacités productives.
+    en: >
+    Analyzed large international datasets to study the emergence of green industrial sectors using
+    input-output data, carbon emissions, and indicators of productive capabilities.
+
+* name: Pipeline Machine Learning supervisé
+  year: 2024
+  institution: Université Paris Dauphine
+  keywords:
+
+  * Machine learning
+  * Python
+  * R
+  * Feature engineering
+  * Cross-validation
+  * Random Forest
+  * Gradient Boosting
+  * Regression
+    description:
+    fr: >
+    Pipeline complet sur près de 100 000 observations : nettoyage, réduction de catégories,
+    imputation, variables géographiques, feature engineering, comparaison de modèles et validation croisée.
+    en: >
+    End-to-end supervised machine learning pipeline on nearly 100,000 observations, including cleaning,
+    category reduction, imputation, geographic features, feature engineering, model comparison,
+    and cross-validation.
+
+skills:
+technical:
+programming:
+- Python
+- R
+- SQL
+- Stata
+- Google Apps Script
+data_analysis:
+- pandas
+- NumPy
+- statsmodels
+- tidyverse
+- ggplot2
+- dplyr
+- caret
+databases:
+- PostgreSQL
+- DuckDB
+- BigQuery
+- SQL Server basics
+- Oracle basics
+bi_reporting:
+- Power BI
+- Power Query
+- Excel advanced
+- Tableau
+- KPI reporting
+- Dashboards
+- Data storytelling
+- Relational data modelling
+automation:
+- Python scripts
+- Google Apps Script
+- Excel/CSV processing
+- Data validation
+- Workflow automation
+- pytest
+- Git
+- Marimo
+data_engineering_basics:
+- ETL workflows
+- Data cleaning
+- Data transformation
+- Multi-source consolidation
+- Parquet
+- Data dictionaries
+- Quality checks
+
+analytical:
+- Econometrics
+- Statistical analysis
+- Exploratory data analysis
+- KPI construction
+- Policy evaluation
+- Difference-in-differences
+- Regression models
+- Input-output analysis
+- Scenario analysis
+- Climate policy analysis
+- Public policy analysis
+
+domain:
+- Carbon accounting
+- ESG reporting
+- GHG Protocol
+- SBTi
+- FLAG
+- Climate transition
+- Public policy
+- Industrial policy
+- Territorial analysis
+- Fiscal vulnerability
+- Biodiversity transition risks
+
+professional:
+- Documentation
+- Stakeholder communication
+- Client-facing restitution
+- Cross-functional teamwork
+- Autonomy
+- Analytical synthesis
+- Data quality mindset
+- Agile collaboration
+- Methodological rigor
+
+languages:
+
+* language: French
+  level: Native
+* language: English
+  level: C2
+* language: German
+  level: B1
+* language: Korean
+  level: B1
+* language: Italian
+  level: A2
+
+certifications:
+
+* provider: HarvardX
+  name: Data Analysis with R, statistics and visualization
+  year: 2023
+* provider: Coursera
+  name: Python for Analysis & Automation
+  year: 2025
+
+writing_preferences:
+preferred_cv_languages:
+- French
+- English
+preferred_cover_letter_languages:
+- French
+- English
+tone:
+- precise
+- analytical
+- decision-oriented
+- institutional when applying to public-sector roles
+- business-oriented when applying to BI or private-sector roles
+avoid:
+- exaggerated claims
+- unsupported skills
+- generic motivation paragraphs
+- em dash characters
