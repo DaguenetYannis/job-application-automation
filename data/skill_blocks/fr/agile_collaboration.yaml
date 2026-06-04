@@ -1,0 +1,39 @@
+skill_id: agile_collaboration
+label: Collaboration agile
+language: fr
+categories:
+- 08_public_sector_consulting
+- 01_data_analyst
+- 02_bi_reporting_analytics
+keywords:
+- collaboration
+- it-ration
+- besoins changeants
+- -quipe
+- projet
+evidence:
+- 'Greenly: adaptation - des besoins clients changeants et workflows it-ratifs.'
+- 'DataForGood / Reclaim Finance: collaboration avec data engineers, analystes et
+  -quipes projet.'
+short: Collaboration it-rative avec -quipes data, m-tier et projet pour ajuster les
+  analyses aux besoins.
+medium: 'Travail en contextes -volutifs: priorisation, retours utilisateurs, ajustements
+  de donn-es et coordination avec analystes, data engineers et parties prenantes.'
+long: '- utiliser lorsque collaboration, adaptation et livraison progressive comptent
+  autant que la technique.'
+cv_bullet_options:
+- 'Travail en contextes -volutifs: priorisation, retours utilisateurs, ajustements
+  de donn-es et coordination avec analystes, data engineers et parties prenantes.'
+- Collaboration it-rative avec -quipes data, m-tier et projet pour ajuster les analyses
+  aux besoins.
+cover_letter_usage: Use this block when the job description calls for Collaboration
+  agile and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- consulting
+- data analyst
+- BI
+- tech-adjacent roles
+avoid_for:
+- management agile senior
+- scrum master confirm-

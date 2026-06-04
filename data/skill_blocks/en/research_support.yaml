@@ -1,0 +1,40 @@
+skill_id: research_support
+label: Research support
+language: en
+categories:
+- 07_research_data_science
+- 03_public_policy_statistics
+- 09_international_organizations
+keywords:
+- research
+- reproducibility
+- documentation
+- Python
+- R
+- data
+evidence:
+- 'BioLit / DataForGood: support for ML pipelines for segmentation and classification.'
+- 'Academic projects and DataForGood: documentation, structured data and analytical
+  collaboration.'
+short: Research support with data preparation, documentation, reproducibility and
+  Python/R analysis.
+medium: Support to researchers and analytical teams through data cleaning, reproducible
+  scripts, documentation and visualizations.
+long: Support to researchers and analytical teams through data cleaning, reproducible
+  scripts, documentation and visualizations. Keep claims proportionate to documented
+  experience.
+cv_bullet_options:
+- Support to researchers and analytical teams through data cleaning, reproducible
+  scripts, documentation and visualizations.
+- Research support with data preparation, documentation, reproducibility and Python/R
+  analysis.
+cover_letter_usage: Use this block when the role calls for Support - la recherche
+  and evidence can be tied to Greenly, DataForGood, BioLit or academic projects without
+  exaggeration.
+best_for:
+- research assistant
+- research engineer
+- public statistics
+avoid_for:
+- autonomie de chercheur confirm-
+- doctorat ou publications non document-es

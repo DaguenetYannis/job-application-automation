@@ -1,0 +1,40 @@
+skill_id: workflow_automation
+label: Automatisation de workflows
+language: fr
+categories:
+- 01_data_analyst
+- 02_bi_reporting_analytics
+- 05_climate_transition_sustainability
+- 08_public_sector_consulting
+keywords:
+- automation
+- Python
+- Apps Script
+- API
+- alertes
+- boutons
+evidence:
+- 'Greenly: Apps Script, boutons d action, alertes, scripts Python et APIs.'
+- R-duction de t-ches manuelles dans des workflows ESG.
+short: Automatisation l-g-re de workflows avec Python, Google Apps Script, APIs, boutons
+  et alertes.
+medium: Automatisation de t-ches r-p-titives pour r-duire les manipulations, s-curiser
+  des contr-les et acc-l-rer des traitements analytiques.
+long: '- pr-senter comme automatisation pragmatique: scripts, actions d-clenchables,
+  alertes et int-grations simples am-liorant fiabilit- et productivit-.'
+cv_bullet_options:
+- Automatisation de t-ches r-p-titives pour r-duire les manipulations, s-curiser des
+  contr-les et acc-l-rer des traitements analytiques.
+- Automatisation l-g-re de workflows avec Python, Google Apps Script, APIs, boutons
+  et alertes.
+cover_letter_usage: Use this block when the job description calls for Automatisation
+  de workflows and the evidence can be tied to Greenly, DataForGood, BioLit or academic
+  projects without exaggeration.
+best_for:
+- data analyst
+- BI
+- consulting
+- climate
+avoid_for:
+- software engineering complexe
+- plateformes critiques

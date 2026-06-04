@@ -1,0 +1,40 @@
+skill_id: sheets_excel
+label: Excel et Google Sheets
+language: fr
+categories:
+- 01_data_analyst
+- 02_bi_reporting_analytics
+- 05_climate_transition_sustainability
+keywords:
+- Excel
+- Google Sheets
+- TCD
+- XLOOKUP
+- FILTER
+- ARRAYFORMULA
+- validation
+evidence:
+- 'Greenly: Excel avanc- et Google Sheets pour donn-es clients, facteurs d -mission
+  et suivi.'
+- Outil Google Sheets pour rechercher des facteurs d -mission.
+short: Excel avanc- et Google Sheets pour nettoyer, contr-ler, structurer et partager
+  des donn-es analytiques.
+medium: Utilisation de tableaux crois-s, formules imbriqu-es, filtres, validation,
+  XLOOKUP, FILTER et ARRAYFORMULA lorsque pertinent.
+long: Comp-tence op-rationnelle pour structurer des fichiers clients, contr-ler des
+  valeurs, faciliter la collaboration et fiabiliser des restitutions.
+cv_bullet_options:
+- Utilisation de tableaux crois-s, formules imbriqu-es, filtres, validation, XLOOKUP,
+  FILTER et ARRAYFORMULA lorsque pertinent.
+- Excel avanc- et Google Sheets pour nettoyer, contr-ler, structurer et partager des
+  donn-es analytiques.
+cover_letter_usage: Use this block when the job description calls for Excel et Google
+  Sheets and the evidence can be tied to Greenly, DataForGood, BioLit or academic
+  projects without exaggeration.
+best_for:
+- data analyst
+- BI reporting
+- climate transition
+avoid_for:
+- automatisation complexe non document-e
+- remplacement complet de pipelines data

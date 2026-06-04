@@ -1,0 +1,37 @@
+skill_id: git
+label: Git and technical collaboration
+language: en
+categories:
+- 07_research_data_science
+- 01_data_analyst
+keywords:
+- Git
+- VSCode
+- scripts
+- collaboration
+- versioning
+evidence:
+- Personal projects, Korean learning app and shared scripts.
+- Collaboration on freight analysis at Greenly and technical workflows.
+short: Git and VSCode to organize scripts, track versions and collaborate on technical
+  projects.
+medium: 'Git as a collaborative technical skill: versioning, shared scripts, personal
+  projects, VSCode workflows and documentation.'
+long: 'Git as a collaborative technical skill: versioning, shared scripts, personal
+  projects, VSCode workflows and documentation. Keep claims proportionate to documented
+  experience.'
+cv_bullet_options:
+- 'Git as a collaborative technical skill: versioning, shared scripts, personal projects,
+  VSCode workflows and documentation.'
+- Git and VSCode to organize scripts, track versions and collaborate on technical
+  projects.
+cover_letter_usage: Use this block when the role calls for Git et collaboration technique
+  and evidence can be tied to Greenly, DataForGood, BioLit or academic projects without
+  exaggeration.
+best_for:
+- research
+- data analyst
+- technical teams
+avoid_for:
+- software engineering avanc-
+- DevOps

@@ -1,0 +1,35 @@
+skill_id: power_query_etl
+label: Power Query ETL
+language: fr
+categories:
+- 02_bi_reporting_analytics
+- 01_data_analyst
+keywords:
+- Power Query
+- Excel
+- ETL l-ger
+- typage
+- consolidation
+evidence:
+- Excel avanc- et pr-paration de donn-es pour reporting.
+- Nettoyage, typage, transformation et consolidation de sources.
+short: Power Query pour pr-parer, typer, nettoyer, transformer et consolider des donn-es
+  avant analyse.
+medium: 'Power Query comme comp-tence de pr-paration BI: ingestion, typage, nettoyage,
+  transformation et consolidation de fichiers.'
+long: '- utiliser pour montrer une pr-paration de donn-es fiable dans Excel et BI,
+  sans pr-tendre - de l ETL industriel.'
+cv_bullet_options:
+- 'Power Query comme comp-tence de pr-paration BI: ingestion, typage, nettoyage, transformation
+  et consolidation de fichiers.'
+- Power Query pour pr-parer, typer, nettoyer, transformer et consolider des donn-es
+  avant analyse.
+cover_letter_usage: Use this block when the job description calls for Power Query
+  ETL and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- BI reporting
+- data analyst
+avoid_for:
+- enterprise ETL
+- data engineering senior

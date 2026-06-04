@@ -1,0 +1,78 @@
+category_id: 07_research_data_science
+label: Research Data Science
+default_language: fr
+priority: medium
+best_for:
+- Research assistant
+- Research engineer
+- Data analyst in research lab
+- Scientific programming
+- Quantitative social science support
+- CREST-like roles
+also_relevant_for:
+- public policy statistics
+- economist policy analyst
+- data analyst
+not_best_for:
+- pure business reporting roles
+- client-facing consulting roles
+- roles requiring PhD-level research autonomy
+core_keywords:
+- recherche
+- ing-nieur de recherche
+- Python
+- R
+- -conom-trie
+- donn-es
+- reproductibilit-
+- statistiques
+- programmation scientifique
+secondary_keywords:
+- Git
+- notebooks
+- documentation
+- mod-les
+- machine learning
+- nettoyage
+- base de donn-es
+- visualisation
+- recherche appliqu-e
+preferred_experiences:
+- DataForGood / Reclaim Finance
+- BioLit / DataForGood
+- Greenly
+preferred_projects:
+- Pipeline Machine Learning supervis-
+- Transition industrielle verte
+- Portfolio analytique
+preferred_skills:
+- python_data
+- r
+- econometrics
+- machine_learning
+- git
+- data_structuring_cleaning
+- research_support
+- workflow_automation
+cv_angle: Research-oriented data analyst focused on Python, R, reproducible workflows
+  and quantitative social science.
+cover_letter_angle: Emphasize ability to support researchers by translating analytical
+  questions into robust data workflows.
+tone:
+- scientific
+- rigorous
+- technical
+- collaborative
+risk_notes:
+- Do not claim PhD-level research experience.
+- Do not overstate production ML expertise.
+- Keep the focus on research support, implementation and reproducibility.
+example_selection:
+  cv_examples_folder: data/examples/cvs/07_research_data_science
+  cover_letter_examples_folder: data/examples/cover_letters/07_research_data_science
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 3
+  max_projects: 3
+  max_skill_blocks: 9

@@ -1,0 +1,38 @@
+skill_id: r
+label: R for statistics
+language: en
+categories:
+- 03_public_policy_statistics
+- 04_economist_policy_analyst
+- 07_research_data_science
+- 09_international_organizations
+keywords:
+- R
+- tidyverse
+- ggplot2
+- dplyr
+- plm
+- caret
+- R Markdown
+evidence:
+- 'Dauphine: econometrics, statistics, visualization and applied projects in R.'
+- Difference-in-differences, panel data and applied economics in an academic setting.
+short: R for statistical analysis, applied econometrics, visualization and reproducible
+  reporting.
+medium: R in academic work with tidyverse, ggplot2, dplyr, plm, caret and R Markdown.
+long: R in academic work with tidyverse, ggplot2, dplyr, plm, caret and R Markdown.
+  Keep claims proportionate to documented experience.
+cv_bullet_options:
+- R in academic work with tidyverse, ggplot2, dplyr, plm, caret and R Markdown.
+- R for statistical analysis, applied econometrics, visualization and reproducible
+  reporting.
+cover_letter_usage: Use this block when the role calls for R statistique and evidence
+  can be tied to Greenly, DataForGood, BioLit or academic projects without exaggeration.
+best_for:
+- public statistics
+- economist
+- research
+- international organizations
+avoid_for:
+- usage R professionnel de production si non confirm-
+- d-veloppement de packages

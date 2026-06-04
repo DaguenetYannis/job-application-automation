@@ -1,0 +1,38 @@
+skill_id: public_policy_analysis
+label: Public policy analysis
+language: en
+categories:
+- 03_public_policy_statistics
+- 04_economist_policy_analyst
+- 08_public_sector_consulting
+- 09_international_organizations
+keywords:
+- public policy
+- evaluation
+- indicators
+- public decision-making
+- policy note
+evidence:
+- 'Dauphine: public economics, evaluation and quantitative analysis.'
+- 'DataForGood / Reclaim Finance: territorial indicators to support public decision-making.'
+short: Data-driven public policy analysis based on indicators, evidence and decision-oriented
+  synthesis.
+medium: Turning data and quantitative methods into diagnosis, indicators, notes, limitations
+  and careful recommendations.
+long: Turning data and quantitative methods into diagnosis, indicators, notes, limitations
+  and careful recommendations. Keep claims proportionate to documented experience.
+cv_bullet_options:
+- Turning data and quantitative methods into diagnosis, indicators, notes, limitations
+  and careful recommendations.
+- Data-driven public policy analysis based on indicators, evidence and decision-oriented
+  synthesis.
+cover_letter_usage: Use this block when the role calls for Analyse des politiques
+  publiques and evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- public statistics
+- economist
+- public sector consulting
+avoid_for:
+- discours militant non -tay-
+- recommandations trop fortes sans mandat

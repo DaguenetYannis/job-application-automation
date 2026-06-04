@@ -1,0 +1,42 @@
+skill_id: r
+label: R statistique
+language: fr
+categories:
+- 03_public_policy_statistics
+- 04_economist_policy_analyst
+- 07_research_data_science
+- 09_international_organizations
+keywords:
+- R
+- tidyverse
+- ggplot2
+- dplyr
+- plm
+- caret
+- R Markdown
+evidence:
+- 'Dauphine: -conom-trie, statistiques, visualisation et projets appliqu-s en R.'
+- Difference-in-differences, donn-es de panel et -conomie appliqu-e dans un cadre
+  acad-mique.
+short: R pour l analyse statistique, l -conom-trie appliqu-e, la visualisation et
+  la restitution reproductible.
+medium: R utilis- en contexte acad-mique avec tidyverse, ggplot2, dplyr, plm, caret
+  et R Markdown pour analyses quantitatives.
+long: '- pr-senter comme comp-tence quantitative issue de la formation en -conomie:
+  r-gressions, panels, difference-in-differences, visualisations et restitution reproductible.'
+cv_bullet_options:
+- R utilis- en contexte acad-mique avec tidyverse, ggplot2, dplyr, plm, caret et R
+  Markdown pour analyses quantitatives.
+- R pour l analyse statistique, l -conom-trie appliqu-e, la visualisation et la restitution
+  reproductible.
+cover_letter_usage: Use this block when the job description calls for R statistique
+  and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- public statistics
+- economist
+- research
+- international organizations
+avoid_for:
+- usage R professionnel de production si non confirm-
+- d-veloppement de packages

@@ -1,0 +1,36 @@
+skill_id: industrial_policy
+label: Politique industrielle
+language: fr
+categories:
+- 06_industrial_policy_competition
+- 04_economist_policy_analyst
+- 05_climate_transition_sustainability
+keywords:
+- politique industrielle
+- cha-nes de valeur
+- comp-titivit-
+- CBAM
+- ETS
+evidence:
+- M-moire sur secteurs industriels verts, Eora26, Exiobase et complexit- -conomique.
+- Note MACF / CBAM sur comp-titivit-, quotas gratuits et d-carbonation industrielle.
+short: Analyse de politique industrielle, cha-nes de valeur, comp-titivit- et transition
+  bas-carbone.
+medium: Analyse -conomique des capacit-s productives, cha-nes de valeur, instruments
+  climatiques, comp-titivit- et d-carbonation industrielle.
+long: '- appuyer surtout sur les projets acad-miques et notes de politique, en reliant
+  m-thodes quantitatives et enjeux institutionnels.'
+cv_bullet_options:
+- Analyse -conomique des capacit-s productives, cha-nes de valeur, instruments climatiques,
+  comp-titivit- et d-carbonation industrielle.
+- Analyse de politique industrielle, cha-nes de valeur, comp-titivit- et transition
+  bas-carbone.
+cover_letter_usage: Use this block when the job description calls for Politique industrielle
+  and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- industrial policy
+- economist
+- climate transition
+avoid_for:
+- exp-rience professionnelle directe en politique industrielle si absente

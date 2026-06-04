@@ -1,0 +1,37 @@
+skill_id: stakeholder_reporting
+label: Stakeholder reporting
+language: en
+categories:
+- 08_public_sector_consulting
+- 02_bi_reporting_analytics
+- 05_climate_transition_sustainability
+keywords:
+- reporting
+- stakeholders
+- slides
+- dashboard
+- methodology
+evidence:
+- 'Greenly: client-facing reporting, methodology explanations, materials and dashboards.'
+- Non-technical communication around carbon data and results.
+short: Clear reporting of analytical results to non-technical stakeholders.
+medium: Turning analysis into understandable materials, dashboards, methodology explanations,
+  limitations and operational recommendations.
+long: Turning analysis into understandable materials, dashboards, methodology explanations,
+  limitations and operational recommendations. Keep claims proportionate to documented
+  experience.
+cv_bullet_options:
+- Turning analysis into understandable materials, dashboards, methodology explanations,
+  limitations and operational recommendations.
+- Clear reporting of analytical results to non-technical stakeholders.
+cover_letter_usage: Use this block when the role calls for Restitution aux parties
+  prenantes and evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- consulting
+- BI
+- public sector
+- climate
+avoid_for:
+- prise de parole senior commerciale
+- management client complet

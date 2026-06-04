@@ -1,0 +1,36 @@
+skill_id: competition_policy
+label: Concurrence et r-gulation
+language: fr
+categories:
+- 06_industrial_policy_competition
+- 04_economist_policy_analyst
+keywords:
+- concurrence
+- r-gulation
+- march-s
+- -conomie industrielle
+- analyse -conomique
+evidence:
+- Formation en -conomie industrielle et analyse -conomique.
+- Int-r-t et candidatures li-es - la concurrence, avec comp-tences transf-rables en
+  analyse quantitative.
+short: Analyse -conomique transf-rable aux sujets de concurrence, r-gulation et fonctionnement
+  des march-s.
+medium: '- formuler comme int-r-t et capacit- d analyse -conomique transf-rable: march-s,
+  incitations, r-gulation, donn-es et synth-se.'
+long: '- utiliser avec prudence pour concurrence ou r-gulation, sans pr-tendre - une
+  exp-rience professionnelle directe en autorit- de concurrence.'
+cv_bullet_options:
+- '- formuler comme int-r-t et capacit- d analyse -conomique transf-rable: march-s,
+  incitations, r-gulation, donn-es et synth-se.'
+- Analyse -conomique transf-rable aux sujets de concurrence, r-gulation et fonctionnement
+  des march-s.
+cover_letter_usage: Use this block when the job description calls for Concurrence
+  et r-gulation and the evidence can be tied to Greenly, DataForGood, BioLit or academic
+  projects without exaggeration.
+best_for:
+- industrial policy
+- economist
+avoid_for:
+- expertise juridique concurrence
+- exp-rience professionnelle en autorit- de concurrence

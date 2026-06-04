@@ -1,0 +1,37 @@
+skill_id: ghg_reporting
+label: Reporting carbone et GES
+language: fr
+categories:
+- 05_climate_transition_sustainability
+- 01_data_analyst
+keywords:
+- GHG Protocol
+- BEGES
+- SBTi
+- FLAG
+- scopes
+- -missions
+evidence:
+- 'Greenly: scopes 1, 2 et 3, achats, transport, fret, produits vendus et facteurs
+  d -mission.'
+- Documentation m-thodologique carbone et restitution client.
+short: Analyse de donn-es carbone et ESG selon des cadres comme GHG Protocol, BEGES,
+  SBTi et FLAG.
+medium: 'Reporting GES appliqu- aux donn-es multi-sources: scopes, achats, fret, produits
+  vendus, facteurs d -mission et contr-les qualit-.'
+long: '- utiliser pour les r-les climat et ESG, en insistant sur la donn-e carbone
+  et la m-thodologie sans revendiquer une s-niorit- de consultant climat.'
+cv_bullet_options:
+- 'Reporting GES appliqu- aux donn-es multi-sources: scopes, achats, fret, produits
+  vendus, facteurs d -mission et contr-les qualit-.'
+- Analyse de donn-es carbone et ESG selon des cadres comme GHG Protocol, BEGES, SBTi
+  et FLAG.
+cover_letter_usage: Use this block when the job description calls for Reporting carbone
+  et GES and the evidence can be tied to Greenly, DataForGood, BioLit or academic
+  projects without exaggeration.
+best_for:
+- climate transition
+- ESG data analyst
+avoid_for:
+- strat-gie climat senior
+- expertise r-glementaire compl-te non document-e

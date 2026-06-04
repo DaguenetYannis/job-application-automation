@@ -1,0 +1,39 @@
+skill_id: kpi_reporting
+label: KPI et reporting
+language: fr
+categories:
+- 01_data_analyst
+- 02_bi_reporting_analytics
+- 05_climate_transition_sustainability
+- 08_public_sector_consulting
+keywords:
+- KPI
+- indicateurs
+- reporting
+- interpr-tation
+- dashboard
+evidence:
+- 'Greenly: KPIs carbone, -missions, poids, mat-riaux et restitution.'
+- 'DataForGood / Reclaim Finance: vuln-rabilit-, potentiel fiscal et effort fiscal.'
+short: Construction de KPI et de reportings interpr-tables pour transformer des donn-es
+  en supports de d-cision.
+medium: KPI reporting appliqu- aux donn-es carbone, ESG et territoriales avec coh-rence,
+  visualisations et interpr-tation pour parties prenantes.
+long: Capacit- - passer de donn-es brutes - des indicateurs lisibles, contextualis-s
+  et actionnables pour un public m-tier ou institutionnel.
+cv_bullet_options:
+- KPI reporting appliqu- aux donn-es carbone, ESG et territoriales avec coh-rence,
+  visualisations et interpr-tation pour parties prenantes.
+- Construction de KPI et de reportings interpr-tables pour transformer des donn-es
+  en supports de d-cision.
+cover_letter_usage: Use this block when the job description calls for KPI et reporting
+  and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- data analyst
+- BI
+- climate
+- consulting
+avoid_for:
+- reporting financier senior
+- pilotage strat-gique non document-

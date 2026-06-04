@@ -1,0 +1,36 @@
+skill_id: writing_synthesis
+label: Writing and synthesis
+language: en
+categories:
+- 04_economist_policy_analyst
+- 08_public_sector_consulting
+- 09_international_organizations
+keywords:
+- policy note
+- synthesis
+- documentation
+- methodology
+- policy writing
+evidence:
+- Policy notes, methodology documentation, Notion guides and Greenly materials.
+- AFD biodiversity note and MACF / CBAM note.
+short: Writing syntheses, notes and documentation that connect data, method and decision-making.
+medium: Policy notes, methodology documentation, operational guides, structured arguments
+  and audience adaptation.
+long: Policy notes, methodology documentation, operational guides, structured arguments
+  and audience adaptation. Keep claims proportionate to documented experience.
+cv_bullet_options:
+- Policy notes, methodology documentation, operational guides, structured arguments
+  and audience adaptation.
+- Writing syntheses, notes and documentation that connect data, method and decision-making.
+cover_letter_usage: Use this block when the role calls for R-daction et synth-se and
+  evidence can be tied to Greenly, DataForGood, BioLit or academic projects without
+  exaggeration.
+best_for:
+- policy
+- consulting
+- economist
+- international organizations
+avoid_for:
+- prise de position non -tay-e
+- communication marketing pure

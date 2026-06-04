@@ -1,0 +1,40 @@
+skill_id: data_structuring_cleaning
+label: Structuration et nettoyage de donn-es
+language: fr
+categories:
+- 01_data_analyst
+- 03_public_policy_statistics
+- 05_climate_transition_sustainability
+- 07_research_data_science
+keywords:
+- nettoyage
+- qualit-
+- normalisation
+- sch-ma
+- dictionnaire
+- multi-sources
+evidence:
+- 'Greenly: achats, fret, recyclage, produits vendus, facteurs d -mission.'
+- 'DataForGood / Reclaim Finance: dictionnaire de variables, normalisation de sch-ma
+  et contr-les qualit-.'
+short: Structuration et nettoyage de donn-es multi-sources pour produire des bases
+  fiables et document-es.
+medium: 'Comp-tence centrale: nettoyage, normalisation, harmonisation de sch-mas,
+  dictionnaire de variables et contr-les qualit-.'
+long: Capacit- - transformer des donn-es d-sordonn-es en bases exploitables, document-es
+  et coh-rentes pour analyse, indicateurs et reporting.
+cv_bullet_options:
+- 'Comp-tence centrale: nettoyage, normalisation, harmonisation de sch-mas, dictionnaire
+  de variables et contr-les qualit-.'
+- Structuration et nettoyage de donn-es multi-sources pour produire des bases fiables
+  et document-es.
+cover_letter_usage: Use this block when the job description calls for Structuration
+  et nettoyage de donn-es and the evidence can be tied to Greenly, DataForGood, BioLit
+  or academic projects without exaggeration.
+best_for:
+- data analyst
+- public statistics
+- climate transition
+- research data science
+avoid_for:
+- postes sans composante donn-es

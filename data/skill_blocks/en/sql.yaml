@@ -1,0 +1,41 @@
+skill_id: sql
+label: SQL
+language: en
+categories:
+- 01_data_analyst
+- 02_bi_reporting_analytics
+- 03_public_policy_statistics
+- 07_research_data_science
+- 09_international_organizations
+keywords:
+- SQL
+- BigQuery
+- PostgreSQL
+- DuckDB
+- joins
+- aggregations
+evidence:
+- 'Greenly: BigQuery and PostgreSQL on carbon data, emission factors and internal
+  databases.'
+- 'DataForGood / Reclaim Finance: DuckDB and SQL logic on territorial fiscal data.'
+short: SQL applied to extraction, filtering, joins, aggregations and data quality
+  checks.
+medium: SQL with BigQuery, PostgreSQL and DuckDB to work on ESG, carbon and fiscal
+  datasets for reporting.
+long: SQL with BigQuery, PostgreSQL and DuckDB to work on ESG, carbon and fiscal datasets
+  for reporting. Keep claims proportionate to documented experience.
+cv_bullet_options:
+- SQL with BigQuery, PostgreSQL and DuckDB to work on ESG, carbon and fiscal datasets
+  for reporting.
+- SQL applied to extraction, filtering, joins, aggregations and data quality checks.
+cover_letter_usage: Use this block when the role calls for SQL and evidence can be
+  tied to Greenly, DataForGood, BioLit or academic projects without exaggeration.
+best_for:
+- data analyst
+- BI reporting
+- public statistics
+- research
+avoid_for:
+- advanced DBA
+- database administration
+- production database design

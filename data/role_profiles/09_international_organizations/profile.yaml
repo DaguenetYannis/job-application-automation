@@ -1,0 +1,79 @@
+category_id: 09_international_organizations
+label: International Organizations
+default_language: en
+priority: medium
+best_for:
+- OECD
+- World Bank
+- European Union
+- international organizations
+- international policy analyst
+- education statistics
+- climate and development roles
+also_relevant_for:
+- economist policy analyst
+- public policy statistics
+- climate transition
+- research data science
+not_best_for:
+- local private-sector BI roles
+- purely French administrative roles unless international dimension is present
+- roles requiring long professional experience in IOs
+core_keywords:
+- international
+- OECD
+- policy analyst
+- data analyst
+- statistics
+- development
+- evaluation
+- research
+- public policy
+secondary_keywords:
+- education
+- climate
+- sustainability
+- economic analysis
+- indicators
+- cross-country
+- survey
+- quantitative analysis
+- English
+preferred_experiences:
+- DataForGood / Reclaim Finance
+- Greenly
+preferred_projects:
+- Transition industrielle verte
+- Portfolio analytique
+- Pipeline Machine Learning supervis-
+preferred_skills:
+- english_policy_writing
+- public_policy_analysis
+- econometrics
+- r
+- python_data
+- sql
+- climate_policy
+- writing_synthesis
+cv_angle: Internationally oriented data analyst and economist with quantitative, policy
+  and sustainability experience.
+cover_letter_angle: Emphasize international academic background, English working proficiency,
+  policy analysis and quantitative evidence.
+tone:
+- international
+- analytical
+- concise
+- policy-oriented
+risk_notes:
+- Do not overstate direct international organization experience.
+- Use English by default unless the job is explicitly in French.
+- Emphasize transferable experience from data, policy and climate projects.
+example_selection:
+  cv_examples_folder: data/examples/cvs/09_international_organizations
+  cover_letter_examples_folder: data/examples/cover_letters/09_international_organizations
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 2
+  max_projects: 3
+  max_skill_blocks: 8

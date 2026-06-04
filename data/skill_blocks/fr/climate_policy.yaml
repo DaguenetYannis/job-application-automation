@@ -1,0 +1,40 @@
+skill_id: climate_policy
+label: Politique climatique
+language: fr
+categories:
+- 05_climate_transition_sustainability
+- 04_economist_policy_analyst
+- 06_industrial_policy_competition
+- 09_international_organizations
+keywords:
+- climat
+- transition
+- adaptation
+- CBAM
+- MACF
+- d-carbonation
+evidence:
+- 'Greenly: donn-es carbone et m-thodologies GES.'
+- M-moire sur transition industrielle verte et note MACF / CBAM.
+- 'DataForGood / Reclaim Finance: vuln-rabilit- fiscale face aux risques climatiques.'
+short: Analyse de la transition climatique reliant donn-es, politiques publiques,
+  carbone et enjeux -conomiques.
+medium: 'Politique climatique appliqu-e: reporting carbone, adaptation territoriale,
+  transition industrielle, CBAM/MACF et instruments -conomiques.'
+long: '- utiliser pour connecter les comp-tences data - la transition -cologique,
+  la d-carbonation industrielle et les politiques climatiques.'
+cv_bullet_options:
+- 'Politique climatique appliqu-e: reporting carbone, adaptation territoriale, transition
+  industrielle, CBAM/MACF et instruments -conomiques.'
+- Analyse de la transition climatique reliant donn-es, politiques publiques, carbone
+  et enjeux -conomiques.
+cover_letter_usage: Use this block when the job description calls for Politique climatique
+  and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- climate transition
+- economist
+- international organizations
+avoid_for:
+- strat-gie climat senior
+- -cologie de terrain

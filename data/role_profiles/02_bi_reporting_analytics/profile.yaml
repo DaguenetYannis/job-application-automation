@@ -1,0 +1,78 @@
+category_id: 02_bi_reporting_analytics
+label: BI, Reporting and Analytics
+default_language: fr
+priority: high
+best_for:
+- BI Analyst
+- Reporting Analyst
+- Business Intelligence Analyst
+- Power BI Analyst
+- Data Analyst BI
+- Dashboard and KPI reporting roles
+also_relevant_for:
+- data analyst roles with strong reporting component
+- business analyst roles with data tasks
+- operations analytics
+- performance reporting
+not_best_for:
+- econometric research roles
+- pure public policy writing roles
+- pure software development
+- roles requiring senior DAX expertise unless described as junior
+core_keywords:
+- Power BI
+- dashboard
+- reporting
+- KPI
+- business intelligence
+- Power Query
+- data model
+- DAX
+- Excel
+- SQL
+secondary_keywords:
+- stakeholder
+- data storytelling
+- decision support
+- visualization
+- performance monitoring
+- relational model
+- ETL
+- data quality
+preferred_experiences:
+- Greenly
+- DataForGood / Reclaim Finance
+preferred_projects:
+- Portfolio analytique
+- Pipeline Machine Learning supervis-
+preferred_skills:
+- power_bi_reporting
+- power_query_etl
+- sql
+- kpi_reporting
+- data_structuring_cleaning
+- sheets_excel
+- stakeholder_reporting
+cv_angle: Data Analyst BI focused on Power BI, SQL, KPI modelling and decision-oriented
+  reporting.
+cover_letter_angle: Emphasize the ability to build reliable reporting datasets and
+  translate analyses into dashboards for business users.
+tone:
+- business-oriented
+- clear
+- operational
+- stakeholder-focused
+risk_notes:
+- If DAX experience is not explicitly documented, phrase it as basic DAX or DAX in
+  consolidation.
+- Do not present the profile as a senior BI developer.
+- Do not overemphasize academic economics.
+example_selection:
+  cv_examples_folder: data/examples/cvs/02_bi_reporting_analytics
+  cover_letter_examples_folder: data/examples/cover_letters/02_bi_reporting_analytics
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 2
+  max_projects: 2
+  max_skill_blocks: 8

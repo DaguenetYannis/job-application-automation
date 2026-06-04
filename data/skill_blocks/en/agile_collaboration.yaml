@@ -1,0 +1,40 @@
+skill_id: agile_collaboration
+label: Agile collaboration
+language: en
+categories:
+- 08_public_sector_consulting
+- 01_data_analyst
+- 02_bi_reporting_analytics
+keywords:
+- collaboration
+- iteration
+- changing needs
+- team
+- project
+evidence:
+- 'Greenly: adaptation to changing client needs and iterative workflows.'
+- 'DataForGood / Reclaim Finance: collaboration with data engineers, analysts and
+  project teams.'
+short: Iterative collaboration with data, business and project teams to adapt analysis
+  to needs.
+medium: 'Work in evolving contexts: prioritization, user feedback, data adjustments
+  and coordination with analysts, engineers and stakeholders.'
+long: 'Work in evolving contexts: prioritization, user feedback, data adjustments
+  and coordination with analysts, engineers and stakeholders. Keep claims proportionate
+  to documented experience.'
+cv_bullet_options:
+- 'Work in evolving contexts: prioritization, user feedback, data adjustments and
+  coordination with analysts, engineers and stakeholders.'
+- Iterative collaboration with data, business and project teams to adapt analysis
+  to needs.
+cover_letter_usage: Use this block when the role calls for Collaboration agile and
+  evidence can be tied to Greenly, DataForGood, BioLit or academic projects without
+  exaggeration.
+best_for:
+- consulting
+- data analyst
+- BI
+- tech-adjacent roles
+avoid_for:
+- management agile senior
+- scrum master confirm-

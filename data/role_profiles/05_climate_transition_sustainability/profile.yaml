@@ -1,0 +1,82 @@
+category_id: 05_climate_transition_sustainability
+label: Climate Transition and Sustainability
+default_language: fr
+priority: very_high
+best_for:
+- Climate Data Analyst
+- Sustainability Analyst
+- Climate Policy Analyst
+- Carbon Analyst
+- ESG Analyst
+- Transition risk analyst
+- Environmental economics roles
+also_relevant_for:
+- economist policy analyst
+- public policy statistics
+- public sector consulting
+- international organizations
+not_best_for:
+- generic BI roles without sustainability
+- pure corporate finance
+- pure environmental science roles requiring field expertise
+core_keywords:
+- climat
+- transition -cologique
+- transition bas-carbone
+- ESG
+- carbone
+- -missions
+- GHG Protocol
+- SBTi
+- BEGES
+- d-carbonation
+secondary_keywords:
+- FLAG
+- transport
+- fret
+- achats
+- scope 1
+- scope 2
+- scope 3
+- risques climatiques
+- adaptation
+- biodiversit-
+- reporting carbone
+preferred_experiences:
+- Greenly
+- DataForGood / Reclaim Finance
+preferred_projects:
+- Transition industrielle verte
+- Portfolio analytique
+- Note MACF / CBAM
+preferred_skills:
+- ghg_reporting
+- climate_policy
+- data_structuring_cleaning
+- workflow_automation
+- kpi_reporting
+- economic_analysis
+- python_greenly
+- sql
+cv_angle: Data analyst and economist specialized in climate transition, ESG data,
+  carbon indicators and decision support.
+cover_letter_angle: Connect technical data work with climate transition, carbon reporting
+  and public or strategic decision-making.
+tone:
+- sustainability-oriented
+- analytical
+- applied
+- credible
+risk_notes:
+- Do not claim climate strategy seniority.
+- Distinguish carbon data analysis from corporate sustainability leadership.
+- Keep claims tied to Greenly and research projects.
+example_selection:
+  cv_examples_folder: data/examples/cvs/05_climate_transition_sustainability
+  cover_letter_examples_folder: data/examples/cover_letters/05_climate_transition_sustainability
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 2
+  max_projects: 3
+  max_skill_blocks: 9

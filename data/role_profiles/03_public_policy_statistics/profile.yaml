@@ -1,0 +1,79 @@
+category_id: 03_public_policy_statistics
+label: Public Policy Statistics
+default_language: fr
+priority: very_high
+best_for:
+- Charg- d'-tudes statistiques
+- Data analyst in ministry
+- Public statistical service
+- Dares, DEPP, SSM, INSEE-adjacent roles
+- Territorial analysis
+- Public indicators and evaluation
+also_relevant_for:
+- economist policy analyst roles
+- research data roles
+- public sector consulting
+- international organization statistics roles
+not_best_for:
+- private-sector sales analytics
+- pure BI reporting without policy content
+- pure climate consulting without public statistics
+core_keywords:
+- statistiques publiques
+- charg- d'-tudes
+- indicateurs
+- action publique
+- politiques publiques
+- R
+- Python
+- SQL
+- donn-es territoriales
+- -valuation
+secondary_keywords:
+- minist-res
+- SSM
+- Insee
+- Dares
+- DEPP
+- analyse territoriale
+- production statistique
+- restitution
+- note d'analyse
+preferred_experiences:
+- DataForGood / Reclaim Finance
+- Greenly
+preferred_projects:
+- Transition industrielle verte
+- Portfolio analytique
+- Pipeline Machine Learning supervis-
+preferred_skills:
+- public_policy_analysis
+- econometrics
+- r
+- sql
+- python_data
+- data_structuring_cleaning
+- territorial_indicators
+- stakeholder_reporting
+cv_angle: Data analyst and economist focused on public statistics, territorial data,
+  indicators and decision support.
+cover_letter_angle: Show motivation for producing robust statistical evidence to inform
+  public action.
+tone:
+- institutional
+- rigorous
+- sober
+- public-service oriented
+risk_notes:
+- Avoid overly commercial wording.
+- Avoid making the letter sound like private consulting.
+- Keep technical terms understandable for public-sector recruiters.
+example_selection:
+  cv_examples_folder: data/examples/cvs/03_public_policy_statistics
+  cover_letter_examples_folder: data/examples/cover_letters/03_public_policy_statistics
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 2
+  max_projects: 2
+  max_skill_blocks: 8

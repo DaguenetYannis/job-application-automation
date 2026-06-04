@@ -1,0 +1,38 @@
+skill_id: python_greenly
+label: Python ESG automation
+language: en
+categories:
+- 01_data_analyst
+- 05_climate_transition_sustainability
+- 08_public_sector_consulting
+keywords:
+- Python
+- ESG
+- Google Maps API
+- automation
+- freight
+- dictionaries
+evidence:
+- 'Greenly: Python scripts for Excel files, freight analysis, Google Maps API and
+  category dictionaries.'
+- Automation of analytical processing and ESG workflows.
+short: Python to automate analytical processing and make ESG workflows more reliable.
+medium: Python applied to ESG data, Excel processing, API enrichment, task automation
+  and carbon workflow reliability.
+long: Python applied to ESG data, Excel processing, API enrichment, task automation
+  and carbon workflow reliability. Keep claims proportionate to documented experience.
+cv_bullet_options:
+- Python applied to ESG data, Excel processing, API enrichment, task automation and
+  carbon workflow reliability.
+- Python to automate analytical processing and make ESG workflows more reliable.
+cover_letter_usage: Use this block when the role calls for Python ESG automation and
+  evidence can be tied to Greenly, DataForGood, BioLit or academic projects without
+  exaggeration.
+best_for:
+- data analyst
+- climate
+- automation
+- consulting
+avoid_for:
+- backend production
+- API critique

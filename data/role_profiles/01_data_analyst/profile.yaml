@@ -1,0 +1,82 @@
+category_id: 01_data_analyst
+label: Data Analyst
+default_language: fr
+priority: high
+best_for:
+- Data Analyst
+- Junior Data Analyst
+- Data Analyst Operations
+- Data Analyst ESG
+- Data Analyst public or private sector
+- Analytics role requiring SQL, Python and data cleaning
+also_relevant_for:
+- BI reporting roles
+- climate data roles
+- public policy data roles
+- research data roles
+not_best_for:
+- pure software engineering
+- pure data engineering
+- pure consulting without data tasks
+- senior data science roles requiring deep production ML
+core_keywords:
+- data analyst
+- SQL
+- Python
+- data cleaning
+- data quality
+- KPI
+- reporting
+- Excel
+- dashboard
+- ETL
+- data preparation
+secondary_keywords:
+- PostgreSQL
+- BigQuery
+- DuckDB
+- pandas
+- automation
+- quality checks
+- data validation
+- stakeholder reporting
+- Power BI
+- R
+preferred_experiences:
+- Greenly
+- DataForGood / Reclaim Finance
+- BioLit / DataForGood
+preferred_projects:
+- Portfolio analytique
+- Pipeline Machine Learning supervis-
+- Transition industrielle verte
+preferred_skills:
+- sql
+- python_greenly
+- data_structuring_cleaning
+- workflow_automation
+- sheets_excel
+- kpi_reporting
+- power_bi_reporting
+cv_angle: Data Analyst focused on SQL, Python, data quality, KPI construction and
+  reporting.
+cover_letter_angle: Show ability to transform heterogeneous data into reliable indicators
+  and decision-ready outputs.
+tone:
+- concrete
+- technical but accessible
+- operational
+- decision-oriented
+risk_notes:
+- Do not overstate production data engineering.
+- Do not claim advanced ML engineering.
+- Keep Power BI claims proportional to actual project use.
+example_selection:
+  cv_examples_folder: data/examples/cvs/01_data_analyst
+  cover_letter_examples_folder: data/examples/cover_letters/01_data_analyst
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 3
+  max_projects: 2
+  max_skill_blocks: 8

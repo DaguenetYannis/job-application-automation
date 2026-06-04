@@ -1,0 +1,38 @@
+skill_id: machine_learning
+label: Applied machine learning
+language: en
+categories:
+- 07_research_data_science
+- 01_data_analyst
+keywords:
+- machine learning
+- Random Forest
+- Gradient Boosting
+- feature engineering
+- cross-validation
+evidence:
+- 'Academic project: supervised pipeline on nearly 100,000 observations.'
+- Cleaning, imputation, feature engineering, model comparison, Random Forest, Gradient
+  Boosting and regression.
+short: Supervised machine learning applied in a structured academic project with cleaning,
+  features and validation.
+medium: 'Academic ML: data preparation, imputation, feature engineering, model comparison,
+  Random Forest, Gradient Boosting and cross-validation.'
+long: 'Academic ML: data preparation, imputation, feature engineering, model comparison,
+  Random Forest, Gradient Boosting and cross-validation. Keep claims proportionate
+  to documented experience.'
+cv_bullet_options:
+- 'Academic ML: data preparation, imputation, feature engineering, model comparison,
+  Random Forest, Gradient Boosting and cross-validation.'
+- Supervised machine learning applied in a structured academic project with cleaning,
+  features and validation.
+cover_letter_usage: Use this block when the role calls for Machine learning appliqu-
+  and evidence can be tied to Greenly, DataForGood, BioLit or academic projects without
+  exaggeration.
+best_for:
+- research data science
+- data analyst
+avoid_for:
+- production ML
+- MLOps
+- deep learning avanc-

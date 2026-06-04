@@ -1,0 +1,36 @@
+skill_id: stakeholder_reporting
+label: Restitution aux parties prenantes
+language: fr
+categories:
+- 08_public_sector_consulting
+- 02_bi_reporting_analytics
+- 05_climate_transition_sustainability
+keywords:
+- restitution
+- stakeholders
+- slides
+- dashboard
+- m-thodologie
+evidence:
+- 'Greenly: restitution client, explication m-thodologique, supports et dashboards.'
+- Communication non technique autour des donn-es carbone et des r-sultats.
+short: Restitution claire de r-sultats analytiques - des parties prenantes non techniques.
+medium: 'Transformation d analyses en messages compr-hensibles: supports, dashboards,
+  explications m-thodologiques, limites et recommandations op-rationnelles.'
+long: '- utiliser pour montrer une comp-tence de communication, particuli-rement utile
+  en conseil, BI, climat et secteur public.'
+cv_bullet_options:
+- 'Transformation d analyses en messages compr-hensibles: supports, dashboards, explications
+  m-thodologiques, limites et recommandations op-rationnelles.'
+- Restitution claire de r-sultats analytiques - des parties prenantes non techniques.
+cover_letter_usage: Use this block when the job description calls for Restitution
+  aux parties prenantes and the evidence can be tied to Greenly, DataForGood, BioLit
+  or academic projects without exaggeration.
+best_for:
+- consulting
+- BI
+- public sector
+- climate
+avoid_for:
+- prise de parole senior commerciale
+- management client complet

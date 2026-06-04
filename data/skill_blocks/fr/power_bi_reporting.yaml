@@ -1,0 +1,38 @@
+skill_id: power_bi_reporting
+label: Power BI reporting
+language: fr
+categories:
+- 02_bi_reporting_analytics
+- 01_data_analyst
+- 08_public_sector_consulting
+keywords:
+- Power BI
+- dashboard
+- KPI
+- filtres
+- data storytelling
+- DAX
+evidence:
+- 'DataForGood / Reclaim Finance: prototypes Power BI pour indicateurs territoriaux.'
+- Reporting, dashboards et visualisations - destination d utilisateurs m-tier.
+short: Power BI pour construire des tableaux de bord, suivre des KPI et rendre des
+  indicateurs lisibles.
+medium: Power BI pour pr-parer des jeux de donn-es, cr-er des mod-les relationnels
+  simples, des filtres, des KPI et des visualisations d-cisionnelles.
+long: '- formuler comme comp-tence BI junior en consolidation. DAX doit rester formul-
+  comme basique ou en consolidation sauf confirmation.'
+cv_bullet_options:
+- Power BI pour pr-parer des jeux de donn-es, cr-er des mod-les relationnels simples,
+  des filtres, des KPI et des visualisations d-cisionnelles.
+- Power BI pour construire des tableaux de bord, suivre des KPI et rendre des indicateurs
+  lisibles.
+cover_letter_usage: Use this block when the job description calls for Power BI reporting
+  and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- BI reporting
+- data analyst
+- public sector consulting
+avoid_for:
+- expertise DAX avanc-e non confirm-e
+- architecture BI senior

@@ -1,0 +1,33 @@
+skill_id: power_query_etl
+label: Power Query ETL
+language: en
+categories:
+- 02_bi_reporting_analytics
+- 01_data_analyst
+keywords:
+- Power Query
+- Excel
+- light ETL
+- typing
+- consolidation
+evidence:
+- Advanced Excel and data preparation for reporting.
+- Cleaning, typing, transformation and consolidation of sources.
+short: Power Query to prepare, type, clean, transform and consolidate data before
+  analysis.
+medium: Power Query as a BI preparation skill for ingestion, typing, cleaning, transformation
+  and file consolidation.
+long: Power Query as a BI preparation skill for ingestion, typing, cleaning, transformation
+  and file consolidation. Keep claims proportionate to documented experience.
+cv_bullet_options:
+- Power Query as a BI preparation skill for ingestion, typing, cleaning, transformation
+  and file consolidation.
+- Power Query to prepare, type, clean, transform and consolidate data before analysis.
+cover_letter_usage: Use this block when the role calls for Power Query ETL and evidence
+  can be tied to Greenly, DataForGood, BioLit or academic projects without exaggeration.
+best_for:
+- BI reporting
+- data analyst
+avoid_for:
+- enterprise ETL
+- data engineering senior

@@ -1,0 +1,39 @@
+skill_id: research_support
+label: Support - la recherche
+language: fr
+categories:
+- 07_research_data_science
+- 03_public_policy_statistics
+- 09_international_organizations
+keywords:
+- recherche
+- reproductibilit-
+- documentation
+- Python
+- R
+- donn-es
+evidence:
+- 'BioLit / DataForGood: support - pipelines ML pour segmentation et classification.'
+- 'Projets acad-miques et DataForGood: documentation, donn-es structur-es et collaboration
+  analytique.'
+short: Support - la recherche avec pr-paration de donn-es, documentation, reproductibilit-
+  et analyses Python/R.
+medium: 'Aide aux chercheurs ou -quipes analytiques: questions traduites en donn-es,
+  nettoyage, scripts reproductibles, documentation et visualisations.'
+long: '- pr-senter comme appui op-rationnel - la recherche et aux -quipes m-tier,
+  pas comme autonomie de chercheur confirm-.'
+cv_bullet_options:
+- 'Aide aux chercheurs ou -quipes analytiques: questions traduites en donn-es, nettoyage,
+  scripts reproductibles, documentation et visualisations.'
+- Support - la recherche avec pr-paration de donn-es, documentation, reproductibilit-
+  et analyses Python/R.
+cover_letter_usage: Use this block when the job description calls for Support - la
+  recherche and the evidence can be tied to Greenly, DataForGood, BioLit or academic
+  projects without exaggeration.
+best_for:
+- research assistant
+- research engineer
+- public statistics
+avoid_for:
+- autonomie de chercheur confirm-
+- doctorat ou publications non document-es

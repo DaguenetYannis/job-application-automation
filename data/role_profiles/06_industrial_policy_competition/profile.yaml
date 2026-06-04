@@ -1,0 +1,77 @@
+category_id: 06_industrial_policy_competition
+label: Industrial Policy and Competition
+default_language: fr
+priority: medium
+best_for:
+- Industrial policy analyst
+- Competition economist
+- Economic regulation
+- DG Tr-sor
+- DGE
+- Autorit- de la concurrence
+- CBAM and ETS policy roles
+also_relevant_for:
+- economist policy analyst
+- climate transition
+- international organizations
+not_best_for:
+- pure BI reporting
+- operational data analyst jobs
+- non-economic sustainability roles
+core_keywords:
+- politique industrielle
+- concurrence
+- r-gulation
+- march-
+- comp-titivit-
+- cha-nes de valeur
+- MACF
+- CBAM
+- ETS
+- d-carbonation industrielle
+secondary_keywords:
+- commerce international
+- industrie
+- quotas gratuits
+- export
+- co-ts
+- instruments -conomiques
+- analyse de march-
+- -conomie industrielle
+preferred_experiences:
+- Greenly
+- DataForGood / Reclaim Finance
+preferred_projects:
+- Note MACF / CBAM
+- Transition industrielle verte
+- Portfolio analytique
+preferred_skills:
+- industrial_policy
+- competition_policy
+- climate_policy
+- economic_analysis
+- econometrics
+- data_structuring_cleaning
+- writing_synthesis
+cv_angle: Economist focused on industrial policy, competition, value chains and low-carbon
+  transition.
+cover_letter_angle: Emphasize economic reasoning, quantitative analysis and the ability
+  to connect regulation, competitiveness and climate policy.
+tone:
+- institutional
+- economic
+- precise
+- policy-oriented
+risk_notes:
+- Do not overstate professional competition law experience.
+- Do not make the profile too technical or too BI-oriented.
+- Emphasize analytical transferability from climate data and economic research.
+example_selection:
+  cv_examples_folder: data/examples/cvs/06_industrial_policy_competition
+  cover_letter_examples_folder: data/examples/cover_letters/06_industrial_policy_competition
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 2
+  max_projects: 3
+  max_skill_blocks: 8

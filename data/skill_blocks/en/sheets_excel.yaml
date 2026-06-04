@@ -1,0 +1,40 @@
+skill_id: sheets_excel
+label: Excel and Google Sheets
+language: en
+categories:
+- 01_data_analyst
+- 02_bi_reporting_analytics
+- 05_climate_transition_sustainability
+keywords:
+- Excel
+- Google Sheets
+- pivot tables
+- XLOOKUP
+- FILTER
+- ARRAYFORMULA
+- validation
+evidence:
+- 'Greenly: advanced Excel and Google Sheets for client data, emission factors and
+  monitoring.'
+- Google Sheets tool to search emission factors.
+short: Advanced Excel and Google Sheets to clean, check, structure and share analytical
+  data.
+medium: Spreadsheets for pivot tables, nested formulas, filters, validation, XLOOKUP,
+  FILTER and ARRAYFORMULA when relevant.
+long: Spreadsheets for pivot tables, nested formulas, filters, validation, XLOOKUP,
+  FILTER and ARRAYFORMULA when relevant. Keep claims proportionate to documented experience.
+cv_bullet_options:
+- Spreadsheets for pivot tables, nested formulas, filters, validation, XLOOKUP, FILTER
+  and ARRAYFORMULA when relevant.
+- Advanced Excel and Google Sheets to clean, check, structure and share analytical
+  data.
+cover_letter_usage: Use this block when the role calls for Excel et Google Sheets
+  and evidence can be tied to Greenly, DataForGood, BioLit or academic projects without
+  exaggeration.
+best_for:
+- data analyst
+- BI reporting
+- climate transition
+avoid_for:
+- automatisation complexe non document-e
+- remplacement complet de pipelines data

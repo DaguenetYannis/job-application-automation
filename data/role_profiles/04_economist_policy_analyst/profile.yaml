@@ -1,0 +1,75 @@
+category_id: 04_economist_policy_analyst
+label: Economist and Policy Analyst
+default_language: fr
+priority: high
+best_for:
+- Economist
+- Policy Analyst
+- Economic Analyst
+- Charg- d'-tudes -conomiques
+- Public policy analysis
+- Evaluation and quantitative economic analysis
+also_relevant_for:
+- public policy statistics
+- industrial policy
+- climate transition
+- international organizations
+not_best_for:
+- pure dashboarding roles
+- operational data analyst roles with no policy content
+- senior economist roles requiring extensive professional publications
+core_keywords:
+- -conomie
+- -conom-trie
+- politiques publiques
+- -valuation
+- analyse -conomique
+- note
+- indicateurs
+- donn-es
+- d-cision publique
+secondary_keywords:
+- micro-conomie
+- -conomie industrielle
+- -conomie de l'environnement
+- analyse quantitative
+- sc-narios
+- revue de litt-rature
+- synth-se
+preferred_experiences:
+- DataForGood / Reclaim Finance
+- Greenly
+preferred_projects:
+- Transition industrielle verte
+- Portfolio analytique
+- Note MACF / CBAM
+preferred_skills:
+- econometrics
+- public_policy_analysis
+- economic_analysis
+- climate_policy
+- writing_synthesis
+- data_structuring_cleaning
+- r
+- python_data
+cv_angle: Economist with strong quantitative and data skills, focused on evidence-based
+  policy analysis.
+cover_letter_angle: Emphasize the link between economic reasoning, quantitative methods
+  and public decision-making.
+tone:
+- analytical
+- institutional
+- structured
+- policy-oriented
+risk_notes:
+- Do not make the profile look too technical if the role emphasizes policy notes.
+- Do not overstate formal macroeconomic modelling unless directly supported.
+example_selection:
+  cv_examples_folder: data/examples/cvs/04_economist_policy_analyst
+  cover_letter_examples_folder: data/examples/cover_letters/04_economist_policy_analyst
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 2
+  max_projects: 3
+  max_skill_blocks: 8

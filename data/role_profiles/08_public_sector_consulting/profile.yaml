@@ -1,0 +1,76 @@
+category_id: 08_public_sector_consulting
+label: Public Sector Consulting
+default_language: fr
+priority: medium
+best_for:
+- public sector consultant
+- junior consultant public sector
+- transformation publique
+- data and analytics consulting
+- public policy consulting
+also_relevant_for:
+- public policy statistics
+- economist policy analyst
+- climate transition
+- BI reporting
+not_best_for:
+- pure academic research
+- pure coding roles
+- roles with no analytical or project component
+core_keywords:
+- conseil
+- secteur public
+- transformation
+- accompagnement
+- diagnostic
+- analyse
+- restitution
+- projet
+- parties prenantes
+secondary_keywords:
+- ateliers
+- recommandations
+- pilotage
+- indicateurs
+- performance
+- organisation
+- conduite du changement
+- donn-es
+- politiques publiques
+preferred_experiences:
+- Greenly
+- DataForGood / Reclaim Finance
+preferred_projects:
+- Portfolio analytique
+- Note MACF / CBAM
+- Transition industrielle verte
+preferred_skills:
+- stakeholder_reporting
+- public_policy_analysis
+- kpi_reporting
+- data_structuring_cleaning
+- workflow_automation
+- writing_synthesis
+- agile_collaboration
+cv_angle: Data and policy-oriented junior consultant able to structure analyses, produce
+  indicators and support decision-making.
+cover_letter_angle: Emphasize analytical rigor, client-facing communication, public-sector
+  interest and ability to deliver operational outputs.
+tone:
+- consulting-oriented
+- structured
+- action-oriented
+- clear
+risk_notes:
+- Avoid sounding purely academic.
+- Do not make the profile too technical.
+- Emphasize client-facing and restitution experience from Greenly.
+example_selection:
+  cv_examples_folder: data/examples/cvs/08_public_sector_consulting
+  cover_letter_examples_folder: data/examples/cover_letters/08_public_sector_consulting
+  max_cv_examples: 2
+  max_cover_letter_examples: 2
+context_budget:
+  max_experiences: 2
+  max_projects: 2
+  max_skill_blocks: 8

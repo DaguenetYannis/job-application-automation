@@ -1,0 +1,39 @@
+skill_id: public_policy_analysis
+label: Analyse des politiques publiques
+language: fr
+categories:
+- 03_public_policy_statistics
+- 04_economist_policy_analyst
+- 08_public_sector_consulting
+- 09_international_organizations
+keywords:
+- politiques publiques
+- -valuation
+- indicateurs
+- d-cision publique
+- note
+evidence:
+- 'Dauphine: -conomie publique, -valuation et analyse quantitative.'
+- 'DataForGood / Reclaim Finance: indicateurs territoriaux pour -clairer la d-cision
+  publique.'
+short: Analyse de politiques publiques fond-e sur des donn-es, indicateurs et synth-ses
+  orient-es d-cision.
+medium: Traduction de donn-es et m-thodes quantitatives en diagnostic, indicateurs,
+  notes, limites et recommandations prudentes.
+long: Profil hybride data et -conomie capable de produire des analyses utiles aux
+  d-cideurs publics avec rigueur m-thodologique et clart-.
+cv_bullet_options:
+- Traduction de donn-es et m-thodes quantitatives en diagnostic, indicateurs, notes,
+  limites et recommandations prudentes.
+- Analyse de politiques publiques fond-e sur des donn-es, indicateurs et synth-ses
+  orient-es d-cision.
+cover_letter_usage: Use this block when the job description calls for Analyse des
+  politiques publiques and the evidence can be tied to Greenly, DataForGood, BioLit
+  or academic projects without exaggeration.
+best_for:
+- public statistics
+- economist
+- public sector consulting
+avoid_for:
+- discours militant non -tay-
+- recommandations trop fortes sans mandat

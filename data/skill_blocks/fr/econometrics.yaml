@@ -1,0 +1,40 @@
+skill_id: econometrics
+label: -conom-trie
+language: fr
+categories:
+- 04_economist_policy_analyst
+- 03_public_policy_statistics
+- 07_research_data_science
+- 09_international_organizations
+keywords:
+- -conom-trie
+- r-gression
+- panel
+- difference-in-differences
+- Stata
+- R
+evidence:
+- 'Dauphine: -conom-trie appliqu-e, Stata/R, r-gressions, panels et -valuation.'
+- Projet de gravit- structurelle et -conomie appliqu-e.
+short: -conom-trie appliqu-e pour analyser des donn-es, tester des relations et appuyer
+  l -valuation de politiques publiques.
+medium: R-gressions, panels, difference-in-differences, Stata, R, analyse quantitative
+  et interpr-tation de r-sultats.
+long: '- utiliser pour montrer raisonnement quantitatif, choix de m-thode, limites
+  et lien avec une question -conomique ou publique.'
+cv_bullet_options:
+- R-gressions, panels, difference-in-differences, Stata, R, analyse quantitative et
+  interpr-tation de r-sultats.
+- -conom-trie appliqu-e pour analyser des donn-es, tester des relations et appuyer
+  l -valuation de politiques publiques.
+cover_letter_usage: Use this block when the job description calls for -conom-trie
+  and the evidence can be tied to Greenly, DataForGood, BioLit or academic projects
+  without exaggeration.
+best_for:
+- economist
+- policy analyst
+- statistics
+- research
+avoid_for:
+- mod-lisation macro avanc-e non document-e
+- publications senior

@@ -1,0 +1,37 @@
+skill_id: writing_synthesis
+label: R-daction et synth-se
+language: fr
+categories:
+- 04_economist_policy_analyst
+- 08_public_sector_consulting
+- 09_international_organizations
+keywords:
+- note
+- synth-se
+- documentation
+- m-thodologie
+- policy writing
+evidence:
+- Notes de politique, documentation m-thodologique, guides Notion et supports Greenly.
+- Note AFD biodiversit- et note MACF / CBAM.
+short: R-daction de synth-ses, notes et documentations reliant donn-es, m-thode et
+  d-cision.
+medium: Notes de politique, documentation m-thodologique, guides op-rationnels, arguments
+  structur-s et adaptation au public cible.
+long: '- utiliser pour montrer une r-daction claire sur des sujets techniques, -conomiques
+  ou climatiques, en restant factuel et proportionn-.'
+cv_bullet_options:
+- Notes de politique, documentation m-thodologique, guides op-rationnels, arguments
+  structur-s et adaptation au public cible.
+- R-daction de synth-ses, notes et documentations reliant donn-es, m-thode et d-cision.
+cover_letter_usage: Use this block when the job description calls for R-daction et
+  synth-se and the evidence can be tied to Greenly, DataForGood, BioLit or academic
+  projects without exaggeration.
+best_for:
+- policy
+- consulting
+- economist
+- international organizations
+avoid_for:
+- prise de position non -tay-e
+- communication marketing pure

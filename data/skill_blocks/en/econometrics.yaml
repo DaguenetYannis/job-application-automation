@@ -1,0 +1,39 @@
+skill_id: econometrics
+label: Econometrics
+language: en
+categories:
+- 04_economist_policy_analyst
+- 03_public_policy_statistics
+- 07_research_data_science
+- 09_international_organizations
+keywords:
+- econometrics
+- regression
+- panel data
+- difference-in-differences
+- Stata
+- R
+evidence:
+- 'Dauphine: applied econometrics, Stata/R, regressions, panels and evaluation.'
+- Structural gravity project and applied economics.
+short: Applied econometrics to analyze data, test relationships and support public
+  policy evaluation.
+medium: Regressions, panel data, difference-in-differences, Stata, R, quantitative
+  analysis and interpretation.
+long: Regressions, panel data, difference-in-differences, Stata, R, quantitative analysis
+  and interpretation. Keep claims proportionate to documented experience.
+cv_bullet_options:
+- Regressions, panel data, difference-in-differences, Stata, R, quantitative analysis
+  and interpretation.
+- Applied econometrics to analyze data, test relationships and support public policy
+  evaluation.
+cover_letter_usage: Use this block when the role calls for -conom-trie and evidence
+  can be tied to Greenly, DataForGood, BioLit or academic projects without exaggeration.
+best_for:
+- economist
+- policy analyst
+- statistics
+- research
+avoid_for:
+- mod-lisation macro avanc-e non document-e
+- publications senior

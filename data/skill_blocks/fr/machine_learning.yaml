@@ -1,0 +1,37 @@
+skill_id: machine_learning
+label: Machine learning appliqu-
+language: fr
+categories:
+- 07_research_data_science
+- 01_data_analyst
+keywords:
+- machine learning
+- Random Forest
+- Gradient Boosting
+- feature engineering
+- cross-validation
+evidence:
+- 'Projet acad-mique: pipeline supervis- sur pr-s de 100 000 observations.'
+- Nettoyage, imputation, feature engineering, comparaison de mod-les, Random Forest,
+  Gradient Boosting et r-gression.
+short: Machine learning supervis- appliqu- - un projet acad-mique structur- avec nettoyage,
+  variables et validation.
+medium: 'ML acad-mique: pr-paration de donn-es, imputation, feature engineering, comparaison
+  de mod-les, Random Forest, Gradient Boosting et cross-validation.'
+long: '- utiliser pour montrer une culture ML et une capacit- - construire un pipeline
+  analytique, sans revendiquer du ML en production.'
+cv_bullet_options:
+- 'ML acad-mique: pr-paration de donn-es, imputation, feature engineering, comparaison
+  de mod-les, Random Forest, Gradient Boosting et cross-validation.'
+- Machine learning supervis- appliqu- - un projet acad-mique structur- avec nettoyage,
+  variables et validation.
+cover_letter_usage: Use this block when the job description calls for Machine learning
+  appliqu- and the evidence can be tied to Greenly, DataForGood, BioLit or academic
+  projects without exaggeration.
+best_for:
+- research data science
+- data analyst
+avoid_for:
+- production ML
+- MLOps
+- deep learning avanc-
